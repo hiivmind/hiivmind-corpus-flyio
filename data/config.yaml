@@ -1,0 +1,39 @@
+# Fly.io Corpus Configuration
+schema_version: 2
+
+corpus:
+  name: "flyio"
+  display_name: "Fly.io"
+  keywords:                    # Routing keywords for per-session discovery
+    - "flyio"
+    - "fly.io"
+    - "fly"
+    - "deployment"
+    - "hosting"
+    - "edge"
+    - "cloud"
+  created_at: null
+
+# Multiple sources - each with its own type and tracking
+sources:
+  - id: "flyio"
+    type: "git"
+    repo_url: "https://github.com/superfly/docs"
+    repo_owner: "superfly"
+    repo_name: "docs"
+    branch: "main"
+    docs_root: "."
+    last_commit_sha: "6e18d3dc032f36f07885fd6721ca2de913e8dcc2"
+    last_indexed_at: "2025-12-21T22:50:00Z"
+
+index:
+  format: "markdown"
+  last_updated_at: "2025-12-21T22:50:00Z"
+
+settings:
+  include_patterns:
+    - "**/*.md"
+    - "**/*.mdx"
+  exclude_patterns:
+    - "**/_*.md"
+    - "**/_snippets/**"
