@@ -1,34 +1,30 @@
 ---
-description: Ask questions about Fly.io documentation
-argument-hint: Your question (e.g., "how does X work?", "API reference for Y")
-allowed-tools: ["Read", "Grep", "Glob", "WebFetch", "AskUserQuestion", "Task", "TodoWrite"]
+name: hiivmind-corpus-flyio-navigate
+description: Navigate Fly.io documentation corpus when questions involve Fly.io deployment, hosting, machines, apps, databases, networking, edge services, flyctl CLI, or the Fly.io platform. Auto-triggers on Fly.io-related questions to provide accurate, up-to-date documentation.
 ---
 
 # Fly.io Corpus Navigator
 
 Direct access to Fly.io documentation.
 
-**User request:** $ARGUMENTS
-
 **Corpus location:** `${CLAUDE_PLUGIN_ROOT}`
 
 ---
 
-## If No Arguments Provided
+## Auto-Trigger Behavior
 
-Show a brief help message:
+This skill auto-triggers when the user asks about:
+- Fly.io deployment, hosting, or platform features
+- Fly.io Machines or Apps architecture
+- Fly.io databases (Postgres, Redis, LiteFS)
+- Fly.io networking, load balancing, certificates
+- flyctl CLI commands
+- Fly.io monitoring, logging, or configuration
 
-```
-Fly.io Corpus - ask me anything!
-
-Examples:
-  /hiivmind-corpus-flyio:navigate how does X work?
-  /hiivmind-corpus-flyio:navigate API reference for Y
-
-For maintenance, use the corpus gateway:
-  /hiivmind-corpus:hiivmind-corpus refresh flyio
-  /hiivmind-corpus:hiivmind-corpus enhance flyio [topic]
-```
+**When NOT to trigger:**
+- User explicitly invokes another corpus
+- Question is about general cloud concepts (not Fly.io-specific)
+- User is working with local files only
 
 ---
 
@@ -252,34 +248,6 @@ grep -n "/{path}" openapi.yaml -A 30
 - Include code examples from the docs
 - Suggest related docs from the same index section
 - Note source type and freshness warnings if relevant
-
----
-
-## Making Projects Aware of This Corpus
-
-If you're working in a project that uses Fly.io but doesn't know about this corpus, you can add awareness to the project's CLAUDE.md.
-
-**The `references/project-awareness.md` file** contains a ready-to-use snippet that can be added to any project's CLAUDE.md.
-
-### When to Suggest Injection
-
-Suggest adding project awareness when:
-- User is working in a project that heavily uses Fly.io
-- User repeatedly asks Fly.io questions without invoking the corpus
-- User says "I keep forgetting to use the docs"
-
----
-
-## Example Sessions
-
-### Documentation Question
-
-**User:** `/hiivmind-corpus-flyio:navigate how do I use feature X?`
-
-1. Grep `data/` for "feature X"
-2. Find entry like `flyio:guides/feature-x.md`
-3. Read from `.source/flyio/./guides/feature-x.md`
-4. Answer with code examples and link to source
 
 ---
 
