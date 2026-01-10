@@ -1,6 +1,6 @@
 ---
 name: hiivmind-corpus-flyio-navigate
-description: Navigate Fly.io documentation corpus when questions involve Fly.io deployment, hosting, machines, apps, databases, networking, edge services, flyctl CLI, or the Fly.io platform. Auto-triggers on Fly.io-related questions to provide accurate, up-to-date documentation.
+description: Navigate Fly.io documentation corpus when questions involve Fly.io deployment, hosting, machines, apps, databases, networking, edge services, flyctl CLI, or the Fly.io platform. Triggers: flyio, fly.io, fly, deployment, hosting, edge, machines, flyctl, apps, postgres, redis.
 ---
 
 # Fly.io Corpus Navigator
@@ -139,9 +139,9 @@ data/
 Index entries use the format: `{source_id}:{relative_path}`
 
 Examples:
-- `flyio:reference/api.md` - Git source
-- `local:team-standards/guidelines.md` - Local uploads
-- `web:blog-posts/article.md` - Cached web content
+- `flyio:apps/index.html.markerb` - Apps documentation
+- `flyio:machines/index.html.markerb` - Machines API docs
+- `flyio:postgres/index.html.markerb` - Postgres database docs
 
 ---
 
@@ -149,26 +149,26 @@ Examples:
 
 ### Worked Example (IMPORTANT - Follow This Pattern!)
 
-**Index entry found:** `docs:guides/getting-started/index.md`
+**Index entry found:** `flyio:apps/index.html.markerb`
 
 **Step 1 - Parse the path:**
-- `source_id` = `docs` (everything before the colon)
-- `relative_path` = `guides/getting-started/index.md` (everything after the colon)
+- `source_id` = `flyio` (everything before the colon)
+- `relative_path` = `apps/index.html.markerb` (everything after the colon)
 
 **Step 2 - Look up source in config.yaml:**
 ```yaml
 sources:
-  - id: docs
+  - id: flyio
     type: git
-    repo_owner: example
+    repo_owner: superfly
     repo_name: docs
     branch: main
-    docs_root: content
+    docs_root: .
 ```
 
 **Step 3 - Construct the full path:**
-- Local clone: `.source/docs/content/guides/getting-started/index.md`
-- GitHub URL: `https://raw.githubusercontent.com/example/docs/main/content/guides/getting-started/index.md`
+- Local clone: `.source/flyio/apps/index.html.markerb`
+- GitHub URL: `https://raw.githubusercontent.com/superfly/docs/main/apps/index.html.markerb`
 
 **CRITICAL:** The `relative_path` from the index is used EXACTLY as-is. NEVER invent or guess filenames!
 
