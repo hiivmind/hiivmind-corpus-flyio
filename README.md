@@ -1,125 +1,97 @@
 # Fly.io Documentation Corpus
 
-A Claude Code plugin providing always-current access to Fly.io documentation with intelligent navigation.
+A data-only documentation corpus for Fly.io. Use with the `hiivmind-corpus` plugin for navigation and maintenance.
 
-## Features
+## What is This?
 
-- **Indexed Navigation**: Structured index of all Fly.io documentation with summaries, key concepts, and cross-references
-- **Automatic Updates**: Incremental index updates from upstream documentation changes
-- **Smart Matching**: Finds relevant docs based on concepts, summaries, and section headings
+This repository contains:
+- **Indexed documentation** - Structured index of Fly.io docs with summaries and cross-references
+- **Source tracking** - Configuration tracking upstream documentation commits
+- **Keywords** - Routing keywords for automatic corpus selection
 
-## Installation
+This is NOT a Claude Code plugin. All operations (navigation, building, refreshing) are provided by the `hiivmind-corpus` plugin.
 
-### As a Plugin
+## Quick Start
+
+### 1. Install the hiivmind-corpus plugin
 
 ```bash
-# Add the marketplace containing this plugin
-/plugin marketplace add hiivmind/hiivmind-corpus-flyio
-
-# Install the plugin
-/plugin install hiivmind-corpus-flyio
-
-# Restart Claude Code
+# In Claude Code
+/plugin install hiivmind/hiivmind-corpus
 ```
 
-### Manual Installation
+### 2. Register this corpus
 
-Clone this repository to your Claude Code plugins directory.
-
-## First-Time Setup
-
-After installing, use the `hiivmind-corpus-build` skill to build the index:
-
-```
-Please build the Fly.io documentation index
+```bash
+# Register from GitHub
+/hiivmind-corpus register github:hiivmind/hiivmind-corpus-flyio
 ```
 
-This requires the `hiivmind-corpus` meta-plugin to be installed.
-
-## Maintenance Skills
-
-This corpus is managed by **hiivmind-corpus** skills:
-
-| Skill | Purpose |
-|-------|---------|
-| `hiivmind-corpus-add-source` | Add new documentation sources |
-| `hiivmind-corpus-build` | Build/rebuild the documentation index |
-| `hiivmind-corpus-enhance` | Deepen coverage on specific topics |
-| `hiivmind-corpus-refresh` | Update index from upstream changes |
-
-## Usage
-
-### Automatic Navigation
-
-The navigation skill is model-invoked. Simply ask questions about Fly.io:
+### 3. Start asking questions
 
 ```
-How do I deploy a Python app to Fly.io?
-What's the difference between Machines and Apps?
-How do I set up Postgres on Fly.io?
+How do I deploy a Rails app to Fly.io?
+What are Fly Machines?
+How do I configure Postgres on Fly.io?
 ```
-
-Claude will automatically find and cite relevant documentation.
-
-### Index Updates
-
-Refresh from upstream changes (uses `hiivmind-corpus-refresh`):
-
-```
-Refresh the Fly.io corpus from upstream
-```
-
-Full rebuild (uses `hiivmind-corpus-build`):
-
-```
-Rebuild the Fly.io documentation index from scratch
-```
-
-Enhance a specific topic (uses `hiivmind-corpus-enhance`):
-
-```
-Add more detail about authentication to the Fly.io index
-```
-
-## Skills
-
-### hiivmind-corpus-navigate-flyio
-
-Finds relevant documentation for Fly.io-related coding tasks. Automatically invoked when you ask about:
-
-- Deployment and hosting
-- Machines and apps
-- Databases (Postgres, Redis, etc.)
-- Networking and load balancing
-- Edge computing
-- flyctl CLI commands
 
 ## File Structure
 
 ```
 hiivmind-corpus-flyio/
-├── .claude-plugin/
-│   └── plugin.json           # Plugin manifest
-├── commands/
-│   └── navigate.md           # Documentation navigation
-├── data/
-│   ├── config.yaml           # Source repo + settings
-│   └── index.md              # Generated documentation index
-├── .source/                  # Cloned docs repo (gitignored)
+├── config.yaml          # Source definitions, keywords, tracking
+├── index.md             # Main documentation index
+├── index-apps.md        # Apps section index
+├── index-databases.md   # Databases section index
+├── index-flyctl.md      # CLI reference index
+├── index-getting-started.md
+├── index-languages.md   # Framework guides index
+├── index-machines.md    # Machines section index
+├── index-networking.md  # Networking section index
+├── index-reference.md   # Reference docs index
+├── uploads/             # Local document uploads
+├── .source/             # Cloned docs (gitignored)
+├── .cache/              # Web cache (gitignored)
 └── README.md
 ```
 
-## Configuration
+## Maintenance
 
-The `data/config.yaml` and `data/index.md` files are managed by hiivmind-corpus skills. Do not edit them manually.
+Use `hiivmind-corpus` skills to maintain this corpus:
 
-To add new sources, use `hiivmind-corpus-add-source`. To rebuild or enhance the index, use `hiivmind-corpus-build` or `hiivmind-corpus-enhance`.
+| Command | Purpose |
+|---------|---------|
+| `/hiivmind-corpus refresh flyio` | Update from upstream changes |
+| `/hiivmind-corpus enhance flyio <topic>` | Add depth to a topic |
+| `/hiivmind-corpus build flyio` | Full rebuild |
+| `/hiivmind-corpus add-source flyio <url>` | Add new source |
+
+## config.yaml Schema
+
+```yaml
+schema_version: 2
+
+corpus:
+  name: "flyio"
+  display_name: "Fly.io"
+  keywords:            # For automatic routing
+    - flyio
+    - fly.io
+    - deployment
+
+sources:
+  - id: flyio
+    type: git
+    repo_url: https://github.com/superfly/docs
+    branch: main
+    last_commit_sha: "..."
+    last_indexed_at: "..."
+```
 
 ## Requirements
 
-- `hiivmind-corpus` meta-plugin installed (provides maintenance skills)
-- Git (for cloning and updating documentation)
-- Claude Code with plugin support
+- `hiivmind-corpus` plugin (provides all operations)
+- Git (for source management)
 
 ## License
 
