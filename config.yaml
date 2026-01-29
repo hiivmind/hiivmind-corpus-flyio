@@ -23,12 +23,12 @@ sources:
     repo_name: "docs"
     branch: "main"
     docs_root: "."
-    last_commit_sha: "6e18d3dc032f36f07885fd6721ca2de913e8dcc2"
-    last_indexed_at: "2025-12-21T22:50:00Z"
+    last_commit_sha: "e353a1b35aab60298c0324498c84cb78f26c0910"
+    last_indexed_at: "2026-01-08T12:00:00Z"
 
 index:
   format: "markdown"
-  last_updated_at: "2025-12-21T22:50:00Z"
+  last_updated_at: "2026-01-08T12:00:00Z"
 
 settings:
   include_patterns:
