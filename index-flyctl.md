@@ -68,6 +68,10 @@ grep -l "postgres" .source/flyio/flyctl/cmd/*.md
 - **fly postgres connect** `flyio:flyctl/cmd/fly_postgres_connect.md` ⚡ GREP - Open psql console
 - **fly postgres db** `flyio:flyctl/cmd/fly_postgres_db.md` ⚡ GREP - Manage databases
 
+### Managed Postgres (MPG)
+- **fly mpg** `flyio:flyctl/cmd/fly_mpg.md` ⚡ GREP - Manage Managed Postgres clusters
+- **fly mpg detach** `flyio:flyctl/cmd/fly_mpg_detach.md` ⚡ GREP - Detach managed Postgres cluster from an app
+
 ### Volumes
 - **fly volumes create** `flyio:flyctl/cmd/fly_volumes_create.md` ⚡ GREP - Create a volume
 - **fly volumes list** `flyio:flyctl/cmd/fly_volumes_list.md` ⚡ GREP - List volumes

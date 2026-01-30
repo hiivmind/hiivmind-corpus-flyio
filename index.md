@@ -1,7 +1,7 @@
 # Fly.io Documentation Corpus
 
-> 747 documentation files organized by topic
-> Last updated: 2026-01-08
+> 748 documentation files organized by topic
+> Last updated: 2026-01-30
 
 ## How to Use This Index
 
