@@ -14,7 +14,7 @@
 
 ## Machines REST API
 
-- **Machines API resource** `flyio:machines/api/machines-resource.html.md` - Core Machines API endpoints
+- **Machines API resource** `flyio:machines/api/machines-resource.html.markerb` - Core Machines API endpoints
 - **Apps resource** `flyio:machines/api/apps-resource.html.md` - App management via API
 - **Volumes resource** `flyio:machines/api/volumes-resource.html.md` - Volume management via API
 - **Tokens resource** `flyio:machines/api/tokens-resource.html.md` - Authentication tokens for API access
