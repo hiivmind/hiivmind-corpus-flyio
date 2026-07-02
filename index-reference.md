@@ -63,6 +63,9 @@
 - **Serverless functions** `flyio:blueprints/functions.html.markerb` - Deploy functions on Fly.io
 - **Custom deploy workflows** `flyio:blueprints/custom-deploy-workflows.html.md` - Customize deployment pipelines
 - **Working with Docker** `flyio:blueprints/working-with-docker.html.md` - Docker-based deployments
+- **Deploy OpenClaw on Fly.io** `flyio:blueprints/deploy-openclaw.html.md` - Deploy the OpenClaw open-source app using a prebuilt deploy package and script
+- **Run Hermes Agent on Fly.io** `flyio:blueprints/hermes-agent-on-fly-io.html.md` - Deploy Nous Research's Hermes AI agent on a persistent Fly Machine with volume storage and web dashboard access
+- **Long-running tasks and machine lifecycle** `flyio:blueprints/long-running-tasks.html.md` - How auto_stop_machines works with background tasks and two patterns to prevent work from being killed mid-run
 
 ---
 
@@ -88,6 +91,8 @@
 
 ### Managed Postgres Features
 - **MPG (Managed Postgres)** `flyio:mpg/index.html.markerb` - Managed Postgres platform overview
+- **MPG cluster configuration** `flyio:mpg/cluster-configuration.html.md` - Connection pooling, pool mode options, and PgBouncer configuration for Managed Postgres
+- **MPG client configuration** `flyio:mpg/client-configuration.html.md` - Connect your app to Fly Managed Postgres: connection strings, pooled vs direct URLs, SSL, and language-specific examples
 - Enterprise Postgres features
 
 ---

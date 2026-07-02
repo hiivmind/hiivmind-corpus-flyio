@@ -72,6 +72,9 @@ grep -l "postgres" .source/flyio/flyctl/cmd/*.md
 - **fly mpg** `flyio:flyctl/cmd/fly_mpg.md` ⚡ GREP - Manage Managed Postgres clusters
 - **fly mpg detach** `flyio:flyctl/cmd/fly_mpg_detach.md` ⚡ GREP - Detach managed Postgres cluster from an app
 
+### Organizations
+- **fly orgs cross-network-replays** `flyio:flyctl/cmd/fly_orgs_cross-network-replays.md` ⚡ GREP - Manage cross-network replay settings for an organization
+
 ### Volumes
 - **fly volumes create** `flyio:flyctl/cmd/fly_volumes_create.md` ⚡ GREP - Create a volume
 - **fly volumes list** `flyio:flyctl/cmd/fly_volumes_list.md` ⚡ GREP - List volumes
@@ -130,7 +133,9 @@ Installation guide for macOS, Linux, and Windows.
 ### Authentication & Org
 - `fly auth` - Login and authentication
 - `fly orgs` - Organization management
+- `fly orgs cross-network-replays` - Cross-network replay configuration
 - `fly tokens` - API token management
+- `fly tokens create wireguard` - Create WireGuard-specific API tokens
 
 ---
 
