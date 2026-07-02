@@ -36,6 +36,7 @@
 
 - **Guides and examples overview** `flyio:machines/guides-examples.html.md` - Collection of Machines guides
 - **Machine guides directory** `flyio:machines/guides-examples/` - Detailed examples and tutorials
+- **Managing Machines with the API** `flyio:machines/guides-examples/managing-machines-with-the-api.html.md` - Practical patterns for programmatic machine control: cloning, syncing with flyctl, configuring services, auto-stop/start, and config updates
 
 ## Performance
 

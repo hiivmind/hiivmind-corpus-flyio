@@ -21,6 +21,10 @@
 - **Fly.io essentials** `flyio:getting-started/essentials.html.md` - Key concepts and platform overview
 - **Getting Started overview** `flyio:getting-started/index.html.md` - Main getting started page
 
+## Migration
+
+- **Migrate from Heroku** `flyio:getting-started/migrate-from-heroku.html.md` - Step-by-step guide to migrate a Heroku app to Fly.io (web apps in any language, Postgres, Redis)
+
 ## Troubleshooting
 
 - **Troubleshoot your deployment** `flyio:getting-started/troubleshooting.html.md` - Common deployment issues and solutions
