@@ -1,10 +1,9 @@
 # Fly.io Corpus Configuration
 schema_version: 2
-
 corpus:
   name: "flyio"
   display_name: "Fly.io"
-  keywords:                    # Routing keywords for per-session discovery
+  keywords: # Routing keywords for per-session discovery
     - "flyio"
     - "fly.io"
     - "fly"
@@ -13,7 +12,6 @@ corpus:
     - "edge"
     - "cloud"
   created_at: null
-
 # Multiple sources - each with its own type and tracking
 sources:
   - id: "flyio"
@@ -25,11 +23,9 @@ sources:
     docs_root: "."
     last_commit_sha: "990df20529abb36b461e6998791f6435c0b680c5"
     last_indexed_at: "2026-07-02T00:00:00Z"
-
 index:
   format: "markdown"
-  last_updated_at: "2026-07-02T00:00:00Z"
-
+  last_updated_at: "2026-07-09T16:41:45Z"
 settings:
   include_patterns:
     - "**/*.md"
@@ -37,3 +33,42 @@ settings:
   exclude_patterns:
     - "**/_*.md"
     - "**/_snippets/**"
+# --- migrate v2 render block ---
+render:
+  strategy: tiered
+  quick_reference:
+    - flyio:flyctl/install.html.markerb
+    - flyio:getting-started/launch.html.markerb
+    - flyio:flyctl/cmd/fly_deploy.md
+    - flyio:flyctl/cmd/fly_scale.md
+    - flyio:postgres/getting-started/create-pg-cluster.html.md
+    - flyio:machines/api/machines-resource.html.md
+    - flyio:networking/private-networking.html.md
+    - flyio:apps/secrets.html.markerb
+    - flyio:flyctl/cmd/fly_logs.md
+    - flyio:getting-started/troubleshooting.html.md
+  sections:
+    - id: getting-started
+      title: Getting Started
+      description: First steps with Fly.io - installation, signup, and deploying your first app
+    - id: apps
+      title: Apps
+      description: Application deployment, configuration, and management on Fly.io
+    - id: machines
+      title: Fly Machines
+      description: Low-level VM control with the Machines REST API
+    - id: databases
+      title: Databases & Storage
+      description: Managed Postgres, volumes, and database integrations
+    - id: networking
+      title: Networking
+      description: Private networks, load balancing, certificates, and service discovery
+    - id: flyctl
+      title: flyctl CLI Reference
+      description: Complete command reference for the Fly.io CLI (329 commands)
+    - id: languages
+      title: Languages & Frameworks
+      description: Framework-specific deployment guides and examples
+    - id: reference
+      title: Reference & Platform
+      description: Platform architecture, configuration reference, and advanced topics

@@ -12,3 +12,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Headless result artifact
+migrate-result.yaml
