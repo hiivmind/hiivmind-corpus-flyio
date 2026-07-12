@@ -1,0 +1,5428 @@
+entries:
+- id: flyio:getting-started/essentials.html.md
+  source: flyio
+  path: getting-started/essentials.html.md
+  title: Fly.io essentials
+  summary: Key concepts and platform overview
+  tags:
+  - core-concepts
+  keywords: []
+  concepts: []
+  category: tutorial
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: getting-started
+  headings:
+  - anchor: fly-machines-the-basic-unit-of-doing-stuff-on-fly-io
+    title: 'Fly Machines: The basic unit of Doing Stuff on Fly.io'
+  - anchor: fly-launch-manage-applications-built-on-fly-machines
+    title: 'Fly Launch: Manage applications built on Fly Machines'
+  - anchor: fly-apps-we-re-not-here-to-tell-you-what-to-build
+    title: 'Fly Apps: We''re not here to tell you what to build'
+  - anchor: fly-io-glossary
+    title: Fly.io glossary
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:getting-started/get-started-by-framework.html.markerb
+  source: flyio
+  path: getting-started/get-started-by-framework.html.markerb
+  title: Get started by framework
+  summary: Framework-specific quickstart guides
+  tags:
+  - quick-launch
+  keywords: []
+  concepts: []
+  category: tutorial
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: getting-started
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:getting-started/index.html.md
+  source: flyio
+  path: getting-started/index.html.md
+  title: Getting Started overview
+  summary: Main getting started page
+  tags:
+  - core-concepts
+  keywords: []
+  concepts: []
+  category: tutorial
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: getting-started
+  headings:
+  - anchor: learn-more
+    title: Learn more
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/install.html.markerb
+  source: flyio
+  path: flyctl/install.html.markerb
+  title: Install flyctl
+  summary: Install the Fly.io CLI on macOS, Linux, or Windows
+  tags:
+  - installation-setup
+  keywords: []
+  concepts: []
+  category: tutorial
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: getting-started
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:getting-started/launch-demo.html.markerb
+  source: flyio
+  path: getting-started/launch-demo.html.markerb
+  title: Launch demo
+  summary: Interactive demo of the launch process
+  tags:
+  - quick-launch
+  keywords: []
+  concepts: []
+  category: tutorial
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: getting-started
+  headings:
+  - anchor: 1-install-flyctl
+    title: 1. Install flyctl
+  - anchor: 2-sign-up-or-sign-in
+    title: 2. Sign up or sign in
+  - anchor: 3-launch-the-demo-app
+    title: 3. Launch the demo app
+  - anchor: 4-check-your-app-s-status
+    title: 4. Check your app's status
+  - anchor: 5-visit-your-app
+    title: 5. Visit your app
+  - anchor: deploy-changes
+    title: Deploy changes
+  - anchor: delete-the-demo-app
+    title: Delete the demo app
+  - anchor: grow-and-scale
+    title: Grow and scale
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:getting-started/migrate-from-heroku.html.md
+  source: flyio
+  path: getting-started/migrate-from-heroku.html.md
+  title: Migrate from Heroku
+  summary: Step-by-step guide to migrate a Heroku app to Fly.io (web apps in any language, Postgres, Redis)
+  tags:
+  - migration
+  keywords: []
+  concepts: []
+  category: tutorial
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: getting-started
+  headings:
+  - anchor: tl-dr-the-fast-path
+    title: TL;DR - The Fast Path
+  - anchor: prerequisites
+    title: Prerequisites
+  - anchor: step-1-export-your-heroku-configuration
+    title: 'Step 1: Export Your Heroku Configuration'
+  - anchor: step-2-prepare-your-app
+    title: 'Step 2: Prepare Your App'
+  - anchor: step-3-launch-on-fly
+    title: 'Step 3: Launch on Fly'
+  - anchor: step-4-set-up-your-database
+    title: 'Step 4: Set Up Your Database'
+  - anchor: step-5-set-up-redis-if-needed
+    title: 'Step 5: Set Up Redis (if needed)'
+  - anchor: step-6-import-environment-variables
+    title: 'Step 6: Import Environment Variables'
+  - anchor: step-7-configure-processes-web-workers
+    title: 'Step 7: Configure Processes (Web + Workers)'
+  - anchor: step-8-deploy
+    title: 'Step 8: Deploy'
+  - anchor: step-9-verify-your-app
+    title: 'Step 9: Verify Your App'
+  - anchor: step-10-migrate-your-domain
+    title: 'Step 10: Migrate Your Domain'
+  - anchor: quick-reference-command-mapping
+    title: 'Quick Reference: Command Mapping'
+  - anchor: common-add-on-replacements
+    title: Common Add-on Replacements
+  - anchor: multiple-environments-staging-production
+    title: Multiple Environments (Staging/Production)
+  - anchor: shutting-down-heroku
+    title: Shutting Down Heroku
+  - anchor: getting-help
+    title: Getting Help
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:getting-started/launch.html.markerb
+  source: flyio
+  path: getting-started/launch.html.markerb
+  title: 'Quickstart: Launch your app'
+  summary: Deploy your first app with  and `fly deploy`
+  tags:
+  - quick-launch
+  keywords: []
+  concepts: []
+  category: tutorial
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: getting-started
+  headings:
+  - anchor: next-steps
+    title: Next steps
+  - anchor: grow-and-scale
+    title: Grow and scale
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:getting-started/sign-up-sign-in.html.markerb
+  source: flyio
+  path: getting-started/sign-up-sign-in.html.markerb
+  title: Sign up & sign in
+  summary: Create an account or log in to Fly.io
+  tags:
+  - installation-setup
+  keywords: []
+  concepts: []
+  category: tutorial
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: getting-started
+  headings:
+  - anchor: no-account-sign-up-for-fly-io
+    title: No account? Sign up for Fly.io
+  - anchor: already-have-a-fly-io-account-sign-in
+    title: Already have a Fly.io account? Sign in
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:getting-started/troubleshooting.html.md
+  source: flyio
+  path: getting-started/troubleshooting.html.md
+  title: Troubleshoot your deployment
+  summary: Common deployment issues and solutions
+  tags:
+  - troubleshooting
+  keywords: []
+  concepts: []
+  category: tutorial
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: getting-started
+  headings:
+  - anchor: try-this-first
+    title: Try this first
+  - anchor: find-your-problem
+    title: Find your problem
+  - anchor: error-codes
+    title: Error codes
+  - anchor: deployment-failures
+    title: Deployment failures
+  - anchor: your-app-isn-t-listening-on-the-right-address
+    title: Your app isn't listening on the right address
+  - anchor: health-checks-failing
+    title: Health checks failing
+  - anchor: cold-starts
+    title: Cold starts
+  - anchor: machine-lifecycle-issues
+    title: Machine lifecycle issues
+  - anchor: the-init-process
+    title: The init process
+  - anchor: networking-and-connectivity
+    title: Networking and connectivity
+  - anchor: database-connections
+    title: Database connections
+  - anchor: dashboard-and-account-access
+    title: Dashboard and account access
+  - anchor: regional-issues
+    title: Regional issues
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/app-availability.html.markerb
+  source: flyio
+  path: apps/app-availability.html.markerb
+  title: App availability
+  summary: High availability and redundancy strategies
+  tags:
+  - scaling-performance
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: what-your-app-needs-to-do
+    title: What your app needs to do
+  - anchor: fly-io-features-for-app-resiliency
+    title: Fly.io features for app resiliency
+  - anchor: redundancy-by-default-on-first-deploy
+    title: Redundancy by default on first deploy
+  - anchor: automatically-start-and-stop-machines
+    title: Automatically start and stop Machines
+  - anchor: health-check-based-routing
+    title: Health check-based routing
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/app-handover-guide.html.md
+  source: flyio
+  path: apps/app-handover-guide.html.md
+  title: App handover guide
+  summary: Transfer app ownership
+  tags:
+  - app-management
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/info.html.md
+  source: flyio
+  path: apps/info.html.md
+  title: App info
+  summary: View app configuration and status
+  tags:
+  - app-basics
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: find-all-your-apps
+    title: Find all your apps
+  - anchor: app-overviews
+    title: App overviews
+  - anchor: examine-a-specific-machine
+    title: Examine a specific Machine
+  - anchor: services
+    title: Services
+  - anchor: public-ip-addresses
+    title: Public IP addresses
+  - anchor: check-on-it-from-inside
+    title: Check on it from inside
+  - anchor: inspect-the-current-configuration-of-a-deployed-app-or-machine
+    title: Inspect the current configuration of a deployed app or Machine
+  - anchor: watch-an-app-s-logs
+    title: Watch an app's logs
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/index.html.markerb
+  source: flyio
+  path: apps/index.html.markerb
+  title: Apps index
+  summary: Main apps documentation page
+  tags:
+  - app-basics
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: fly-launch
+    title: Fly Launch
+  - anchor: secrets
+    title: Secrets
+  - anchor: production-apps
+    title: Production apps
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/overview.html.markerb
+  source: flyio
+  path: apps/overview.html.markerb
+  title: Apps overview
+  summary: What are Fly.io apps and how they work
+  tags:
+  - app-basics
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: a-fly-app-can-be-almost-anything
+    title: A Fly App can be almost anything
+  - anchor: components-of-a-fly-app
+    title: Components of a Fly App
+  - anchor: ways-to-create-an-app
+    title: Ways to create an app
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/build-secrets.html.md
+  source: flyio
+  path: apps/build-secrets.html.md
+  title: Build secrets
+  summary: Use secrets during build time
+  tags:
+  - configuration-secrets
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: mounting-secrets
+    title: Mounting secrets
+  - anchor: secret-values
+    title: Secret values
+  - anchor: testing-build-secrets-locally
+    title: Testing build secrets locally
+  - anchor: automate-the-inclusion-of-build-secrets-using-an-ephemeral-machine
+    title: Automate the inclusion of build secrets using an ephemeral Machine
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/concurrency.html.markerb
+  source: flyio
+  path: apps/concurrency.html.markerb
+  title: Concurrency
+  summary: Configure concurrent request handling
+  tags:
+  - scaling-performance
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: default-settings
+    title: Default settings
+  - anchor: how-fly-proxy-handles-concurrency
+    title: How Fly Proxy handles concurrency
+  - anchor: connections-or-requests
+    title: Connections or requests
+  - anchor: concurrency-limit-tuning-tips
+    title: Concurrency limit tuning tips
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/delete.html.markerb
+  source: flyio
+  path: apps/delete.html.markerb
+  title: Delete apps
+  summary: Remove apps from Fly.io
+  tags:
+  - app-management
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/fine-tune-apps.html.markerb
+  source: flyio
+  path: apps/fine-tune-apps.html.markerb
+  title: Fine-tune apps
+  summary: Optimize app configuration
+  tags:
+  - configuration-secrets
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: fly-io-metrics
+    title: Fly.io metrics
+  - anchor: routing
+    title: Routing
+  - anchor: application-logic-and-performance
+    title: Application logic and performance
+  - anchor: fly-io-configuration
+    title: Fly.io configuration
+  - anchor: distributed-systems
+    title: Distributed systems
+  - anchor: challenges-with-benchmarking
+    title: Challenges with benchmarking
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/going-to-production.html.markerb
+  source: flyio
+  path: apps/going-to-production.html.markerb
+  title: Going to production
+  summary: Production readiness checklist
+  tags:
+  - production-operations
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: security
+    title: Security
+  - anchor: databases
+    title: Databases
+  - anchor: app-performance
+    title: App performance
+  - anchor: availability-resiliency-and-costs
+    title: Availability, resiliency, and costs
+  - anchor: networking
+    title: Networking
+  - anchor: monitoring
+    title: Monitoring
+  - anchor: ci-cd
+    title: CI/CD
+  - anchor: get-support
+    title: Get support
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/trouble-host-unavailable.html.markerb
+  source: flyio
+  path: apps/trouble-host-unavailable.html.markerb
+  title: Host unavailable errors
+  summary: Debug host unavailable issues
+  tags:
+  - troubleshooting
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: notification-of-host-issues
+    title: Notification of host issues
+  - anchor: apps-with-one-machine-and-no-volumes
+    title: Apps with one Machine and no volumes
+  - anchor: apps-with-one-machine-and-an-attached-volume
+    title: Apps with one Machine and an attached volume
+  - anchor: fly-postgres-database-apps
+    title: Fly Postgres database apps
+  - anchor: prevent-downtime-when-there-s-a-single-host-issue
+    title: Prevent downtime when there's a single host issue
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/move-app-org.html.markerb
+  source: flyio
+  path: apps/move-app-org.html.markerb
+  title: Move app to organization
+  summary: Transfer apps between orgs
+  tags:
+  - app-management
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: app-downtime
+    title: App downtime
+  - anchor: resources-moved-with-the-app
+    title: Resources moved with the app
+  - anchor: resources-that-you-need-to-manually-reconfigure
+    title: Resources that you need to manually reconfigure
+  - anchor: read-more
+    title: Read more
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/restart.html.markerb
+  source: flyio
+  path: apps/restart.html.markerb
+  title: Restart apps
+  summary: Restart strategies and zero-downtime deployments
+  tags:
+  - production-operations
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: restart-every-machine-managed-by-fly-launch
+    title: Restart every Machine managed by Fly Launch
+  - anchor: restart-individual-machines
+    title: Restart individual Machines
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:apps/secrets.html.markerb
+  source: flyio
+  path: apps/secrets.html.markerb
+  title: Secrets
+  summary: Store and manage application secrets securely
+  tags:
+  - configuration-secrets
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: apps
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: architecture
+    title: Architecture
+  - anchor: working-with-secrets
+    title: Working with Secrets
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/api/apps-resource.html.md
+  source: flyio
+  path: machines/api/apps-resource.html.md
+  title: Apps resource
+  summary: App management via API
+  tags:
+  - machines-rest-api
+  keywords: []
+  concepts: []
+  category: api
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: create-a-fly-app
+    title: Create a Fly App
+  - anchor: allocate-an-ip-address-for-global-request-routing
+    title: Allocate an IP address for global request routing
+  - anchor: get-app-details
+    title: Get app details
+  - anchor: set-app-secrets
+    title: Set app secrets
+  - anchor: delete-a-fly-app
+    title: Delete a Fly App
+  - anchor: list-apps-in-an-organization
+    title: List apps in an organization
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/cpu-performance.html.md
+  source: flyio
+  path: machines/cpu-performance.html.md
+  title: CPU performance
+  summary: CPU options and performance characteristics
+  tags:
+  - performance
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: bursting
+    title: Bursting
+  - anchor: monitoring
+    title: Monitoring
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/flyctl/fly-machine-run.html.md
+  source: flyio
+  path: machines/flyctl/fly-machine-run.html.md
+  title: flyctl machine run
+  summary: Create and start a Machine with flyctl
+  tags:
+  - flyctl-for-machines
+  keywords:
+  - machine
+  - run
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: what-it-does
+    title: What it does
+  - anchor: usage
+    title: Usage
+  - anchor: administration-set-the-machine-s-app-and-org
+    title: 'Administration: set the Machine''s app and org'
+  - anchor: name-the-machine
+    title: Name the Machine
+  - anchor: choose-a-geographical-region
+    title: Choose a geographical region
+  - anchor: get-or-build-the-docker-image
+    title: Get or build the Docker image
+  - anchor: get-a-shell-on-a-temporary-machine
+    title: Get a shell on a temporary Machine
+  - anchor: run-with-a-custom-entrypoint-or-cmd
+    title: Run with a custom ENTRYPOINT or CMD
+  - anchor: set-machine-resources
+    title: Set Machine resources
+  - anchor: set-environment-variables
+    title: Set environment variables
+  - anchor: define-a-fly-proxy-network-service
+    title: Define a Fly Proxy network service
+  - anchor: set-fly-proxy-autostop-autostart
+    title: Set Fly Proxy autostop/autostart
+  - anchor: stop-or-restart-the-machine-on-process-exit
+    title: Stop or restart the machine on process exit
+  - anchor: destroy-the-machine-when-it-exits
+    title: Destroy the Machine when it exits
+  - anchor: mount-a-fly-volume
+    title: Mount a Fly Volume
+  - anchor: add-metadata-to-the-machine
+    title: Add metadata to the Machine
+  - anchor: place-data-into-files-on-the-machine
+    title: Place data into files on the Machine
+  - anchor: create-a-standby-machine
+    title: Create a standby Machine
+  - anchor: start-a-machine-on-a-schedule
+    title: Start a Machine on a schedule
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/flyctl/fly-machine-update.html.md
+  source: flyio
+  path: machines/flyctl/fly-machine-update.html.md
+  title: flyctl machine update
+  summary: Update Machine configuration
+  tags:
+  - flyctl-for-machines
+  keywords:
+  - machine
+  - update
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: what-it-does
+    title: What it does
+  - anchor: usage
+    title: Usage
+  - anchor: select-a-machine-to-update
+    title: Select a Machine to update
+  - anchor: set-the-timeout-to-wait-for-the-machine-to-successfully-update
+    title: Set the timeout to wait for the Machine to successfully update
+  - anchor: use-a-custom-entrypoint-or-cmd
+    title: Use a custom ENTRYPOINT or CMD
+  - anchor: set-machine-resources
+    title: Set Machine resources
+  - anchor: set-environment-variables
+    title: Set environment variables
+  - anchor: define-a-fly-proxy-network-service
+    title: Define a Fly Proxy network service
+  - anchor: set-fly-proxy-auto-start-and-auto-stop
+    title: Set Fly Proxy auto start and auto stop
+  - anchor: stop-or-restart-the-machine-on-process-exit
+    title: Stop or restart the Machine on process exit
+  - anchor: destroy-the-machine-when-it-exits
+    title: Destroy the Machine when it exits
+  - anchor: add-metadata-to-the-machine
+    title: Add metadata to the Machine
+  - anchor: change-the-mount-point-of-an-attached-volume
+    title: Change the mount point of an attached volume
+  - anchor: place-data-into-files-on-the-machine
+    title: Place data into files on the Machine
+  - anchor: make-the-machine-a-stopped-standby
+    title: Make the Machine a stopped standby
+  - anchor: make-a-standby-machine-a-normal-machine
+    title: Make a standby Machine a normal Machine
+  - anchor: start-the-machine-on-a-schedule
+    title: Start the Machine on a schedule
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/guides-examples.html.md
+  source: flyio
+  path: machines/guides-examples.html.md
+  title: Guides and examples overview
+  summary: Collection of Machines guides
+  tags:
+  - guides-examples
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/machine-states.html.markerb
+  source: flyio
+  path: machines/machine-states.html.markerb
+  title: Machine states
+  summary: Lifecycle states and transitions
+  tags:
+  - overview
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: machine-state-vs-machine-version-state
+    title: Machine state vs. machine version state
+  - anchor: machine-state-types
+    title: Machine state types
+  - anchor: machine-state-lifecycle-diagrams
+    title: Machine state lifecycle diagrams
+  - anchor: update-and-versioning-behavior
+    title: Update and versioning behavior
+  - anchor: diagnosing-stuck-machines
+    title: Diagnosing stuck Machines
+  - anchor: important-machine-state-considerations
+    title: Important Machine state considerations
+  - anchor: related-docs
+    title: Related docs
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/api/machines-resource.html.markerb
+  source: flyio
+  path: machines/api/machines-resource.html.markerb
+  title: Machines API resource
+  summary: Core Machines API endpoints
+  tags:
+  - machines-rest-api
+  keywords: []
+  concepts: []
+  category: api
+  content_type: markdown
+  size: large
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: machine-properties
+    title: Machine properties
+  - anchor: list-machines
+    title: List Machines
+  - anchor: create-a-machine
+    title: Create a Machine
+  - anchor: create-a-machine-with-services
+    title: Create a Machine with services
+  - anchor: wait-for-a-machine-to-reach-a-specified-state
+    title: Wait for a Machine to reach a specified state
+  - anchor: get-a-machine
+    title: Get a Machine
+  - anchor: update-a-machine
+    title: Update a Machine
+  - anchor: stop-a-machine
+    title: Stop a Machine
+  - anchor: suspend-a-machine
+    title: Suspend a Machine
+  - anchor: start-a-machine
+    title: Start a Machine
+  - anchor: delete-a-machine-permanently
+    title: Delete a Machine permanently
+  - anchor: create-a-machine-lease
+    title: Create a Machine lease
+  - anchor: get-a-machine-lease
+    title: Get a Machine lease
+  - anchor: release-a-machine-lease
+    title: Release a Machine lease
+  - anchor: route-requests-away-from-or-back-to-a-machine
+    title: Route requests away from or back to a Machine
+  - anchor: get-a-machine-s-metadata
+    title: Get a Machine's metadata
+  - anchor: add-or-update-machine-metadata
+    title: Add or update Machine metadata
+  - anchor: delete-machine-metadata
+    title: Delete Machine metadata
+  - anchor: notes-on-networking
+    title: Notes on networking
+  - anchor: machine-config-object-properties
+    title: Machine `config` object properties
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/index.html.md
+  source: flyio
+  path: machines/index.html.md
+  title: Machines index
+  summary: Main Machines documentation page
+  tags:
+  - overview
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/overview.html.markerb
+  source: flyio
+  path: machines/overview.html.markerb
+  title: Machines introduction
+  summary: What are Fly Machines and when to use them
+  tags:
+  - overview
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: do-i-need-to-control-machines-directly
+    title: Do I need to control Machines directly?
+  - anchor: concepts
+    title: Concepts
+  - anchor: recapping-fly-machine-features
+    title: Recapping Fly Machine features
+  - anchor: related-reading
+    title: Related reading
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/guides-examples/managing-machines-with-the-api.html.md
+  source: flyio
+  path: machines/guides-examples/managing-machines-with-the-api.html.md
+  title: Managing Machines with the API
+  summary: 'Practical patterns for programmatic machine control: cloning, syncing with flyctl, configuring
+    services, auto-stop/start, and config updates'
+  tags:
+  - guides-examples
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: before-you-begin
+    title: Before you begin
+  - anchor: create-a-machine-from-an-existing-one
+    title: Create a Machine from an existing one
+  - anchor: make-api-created-machines-visible-to-flyctl
+    title: Make API-created Machines visible to flyctl
+  - anchor: configure-services-via-the-api
+    title: Configure services via the API
+  - anchor: update-a-machine-s-configuration
+    title: Update a Machine's configuration
+  - anchor: auto-stop-autostart-and-suspend
+    title: Auto-stop, autostart, and suspend
+  - anchor: operations-not-supported-by-the-machines-api
+    title: Operations not supported by the Machines API
+  - anchor: related-reading
+    title: Related reading
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/runtime-environment.html.md
+  source: flyio
+  path: machines/runtime-environment.html.md
+  title: Runtime environment
+  summary: Environment variables and runtime configuration
+  tags:
+  - overview
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: environment-variables
+    title: _Environment variables_
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/api/tokens-resource.html.md
+  source: flyio
+  path: machines/api/tokens-resource.html.md
+  title: Tokens resource
+  summary: Authentication tokens for API access
+  tags:
+  - machines-rest-api
+  keywords: []
+  concepts: []
+  category: api
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: request-an-oidc-token
+    title: Request an OIDC token
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/api/volumes-resource.html.md
+  source: flyio
+  path: machines/api/volumes-resource.html.md
+  title: Volumes resource
+  summary: Volume management via API
+  tags:
+  - machines-rest-api
+  keywords: []
+  concepts: []
+  category: api
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: volume-properties
+    title: Volume properties
+  - anchor: list-all-the-volumes-in-an-app
+    title: List all the volumes in an app
+  - anchor: create-a-volume
+    title: Create a volume
+  - anchor: get-a-specific-volume
+    title: Get a specific volume
+  - anchor: update-a-volume
+    title: Update a volume
+  - anchor: delete-a-volume-permanently
+    title: Delete a volume permanently
+  - anchor: extend-a-volume
+    title: Extend a volume
+  - anchor: get-a-list-of-snapshots-for-a-volume
+    title: Get a list of snapshots for a volume
+  - anchor: create-a-volume-from-a-snapshot
+    title: Create a volume from a snapshot
+  - anchor: create-an-on-demand-volume-snapshot-beta
+    title: Create an on-demand volume snapshot (beta)
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/api/working-with-machines-api.html.md
+  source: flyio
+  path: machines/api/working-with-machines-api.html.md
+  title: Working with Machines API
+  summary: API usage patterns and examples
+  tags:
+  - machines-rest-api
+  keywords: []
+  concepts: []
+  category: api
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: machines
+  headings:
+  - anchor: connecting-to-the-api
+    title: Connecting to the API
+  - anchor: environment-setup
+    title: Environment setup
+  - anchor: response-codes
+    title: Response Codes
+  - anchor: rate-limits
+    title: Rate Limits
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/backup.html.markerb
+  source: flyio
+  path: litefs/backup.html.markerb
+  title: Backup
+  summary: Local backup strategies
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: periodic-backup-via-export
+    title: Periodic backup via export
+  - anchor: continuous-backup-via-litestream
+    title: Continuous backup via Litestream
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/managing/backup-and-restore.html.md
+  source: flyio
+  path: postgres/managing/backup-and-restore.html.md
+  title: Backup and restore
+  summary: Database backup strategies
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: finding-the-database-app-instance
+    title: Finding the database app instance
+  - anchor: listing-snapshots
+    title: Listing snapshots
+  - anchor: identifying-your-postgres-image-version
+    title: Identifying your Postgres image version
+  - anchor: restoring-from-a-snapshot
+    title: Restoring from a snapshot
+  - anchor: connect-the-restored-database
+    title: Connect the Restored Database
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/cloud-backups.html.markerb
+  source: flyio
+  path: litefs/cloud-backups.html.markerb
+  title: Cloud backups
+  summary: S3-compatible cloud backups
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: creating-a-litefs-cloud-cluster
+    title: Creating a LiteFS Cloud cluster
+  - anchor: configuring-litefs-to-use-litefs-cloud
+    title: Configuring LiteFS to use LiteFS Cloud
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/cloud-restore.html.markerb
+  source: flyio
+  path: litefs/cloud-restore.html.markerb
+  title: Cloud restore
+  summary: Restore from cloud backups
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: restoring-your-litefs-database
+    title: Restoring your LiteFS database
+  - anchor: limitations
+    title: Limitations
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/config.html.markerb
+  source: flyio
+  path: litefs/config.html.markerb
+  title: Configuration
+  summary: LiteFS config file reference
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: config-file-search-path
+    title: Config file search path
+  - anchor: environment-variables
+    title: Environment Variables
+  - anchor: fuse-directory
+    title: FUSE directory
+  - anchor: internal-data-directory
+    title: Internal data directory
+  - anchor: supervisor-exec
+    title: Supervisor / Exec
+  - anchor: http-api-server
+    title: HTTP API Server
+  - anchor: http-proxy-server
+    title: HTTP Proxy Server
+  - anchor: lease-management
+    title: Lease Management
+  - anchor: other-options
+    title: Other options
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/connecting/connecting-external.html.md
+  source: flyio
+  path: postgres/connecting/connecting-external.html.md
+  title: Connect from outside Fly
+  summary: External database access
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: allocate-an-ip-address
+    title: Allocate an IP address
+  - anchor: configure-an-external-service
+    title: Configure an external service
+  - anchor: deploy-with-the-new-configuration
+    title: Deploy with the new configuration
+  - anchor: adapting-the-connection-string
+    title: Adapting the connection string
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/connecting/connecting-internal.html.md
+  source: flyio
+  path: postgres/connecting/connecting-internal.html.md
+  title: Connect to Postgres
+  summary: Internal app connections
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/connecting.html.md
+  source: flyio
+  path: postgres/connecting.html.md
+  title: Connecting overview
+  summary: Connection methods and patterns
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/getting-started/create-pg-cluster.html.md
+  source: flyio
+  path: postgres/getting-started/create-pg-cluster.html.md
+  title: Create a cluster
+  summary: Set up your first Postgres database
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/disaster-recovery.html.markerb
+  source: flyio
+  path: litefs/disaster-recovery.html.markerb
+  title: Disaster recovery
+  summary: Recovery procedures
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: start-your-app-up-with-only-the-primary-node
+    title: Start your app up with only the primary node
+  - anchor: find-the-correct-cluster-id
+    title: Find the correct cluster id
+  - anchor: update-the-cluster-id
+    title: Update the cluster id
+  - anchor: resolve-consul-key-error
+    title: Resolve consul key error
+  - anchor: add-your-replicas-back
+    title: Add your replicas back
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/events.html.markerb
+  source: flyio
+  path: litefs/events.html.markerb
+  title: Events
+  summary: LiteFS event system
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: event-types
+    title: Event Types
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/export.html.markerb
+  source: flyio
+  path: litefs/export.html.markerb
+  title: Export
+  summary: Export LiteFS databases
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: usage
+    title: Usage
+  - anchor: examples
+    title: Examples
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/faq.html.markerb
+  source: flyio
+  path: litefs/faq.html.markerb
+  title: FAQ
+  summary: Frequently asked questions
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: what-is-litefs-used-for
+    title: What is LiteFS used for?
+  - anchor: what-tool-s-does-litefs-replace
+    title: What tool(s) does LiteFS replace?
+  - anchor: what-size-databases-can-litefs-handle
+    title: What size databases can LiteFS handle?
+  - anchor: how-many-databases-can-a-litefs-cluster-handle
+    title: How many databases can a LiteFS cluster handle?
+  - anchor: what-are-the-tradeoffs-of-using-litefs
+    title: What are the tradeoffs of using LiteFS?
+  - anchor: are-litefs-deploys-zero-downtime
+    title: Are LiteFS deploys zero downtime?
+  - anchor: what-s-the-difference-between-litefs-litestream
+    title: What's the difference between LiteFS & Litestream?
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/getting-started.html.markerb
+  source: flyio
+  path: postgres/getting-started.html.markerb
+  title: Getting started
+  summary: Postgres quickstart overview
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/getting-started-docker.html.markerb
+  source: flyio
+  path: litefs/getting-started-docker.html.markerb
+  title: Getting started with Docker
+  summary: Use LiteFS locally
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: adding-litefs-to-your-dockerfile
+    title: Adding LiteFS to your Dockerfile
+  - anchor: configuring-litefs
+    title: Configuring LiteFS
+  - anchor: running-litefs
+    title: Running LiteFS
+  - anchor: importing-your-database
+    title: Importing your database
+  - anchor: configuring-writes-to-primary-node
+    title: Configuring writes to primary node
+  - anchor: next-steps
+    title: Next steps
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/getting-started-fly.html.markerb
+  source: flyio
+  path: litefs/getting-started-fly.html.markerb
+  title: Getting started with Fly.io
+  summary: Deploy LiteFS on Fly
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: installing-litefs
+    title: Installing LiteFS
+  - anchor: configuring-litefs
+    title: Configuring LiteFS
+  - anchor: running-litefs
+    title: Running LiteFS
+  - anchor: importing-your-database
+    title: Importing your database
+  - anchor: next-steps
+    title: Next steps
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/how-it-works.html.markerb
+  source: flyio
+  path: litefs/how-it-works.html.markerb
+  title: How it works
+  summary: LiteFS architecture and replication
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: capturing-sqlite-transactions
+    title: Capturing SQLite Transactions
+  - anchor: replication-position
+    title: Replication Position
+  - anchor: cluster-management-using-leases
+    title: Cluster management using leases
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/import.html.markerb
+  source: flyio
+  path: litefs/import.html.markerb
+  title: Import
+  summary: Import existing SQLite databases
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: usage
+    title: Usage
+  - anchor: examples
+    title: Examples
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/index.html.markerb
+  source: flyio
+  path: litefs/index.html.markerb
+  title: LiteFS index
+  summary: Main LiteFS documentation
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: project-status
+    title: Project status
+  - anchor: exploring-our-guides
+    title: Exploring our guides
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:volumes/volume-manage.html.markerb
+  source: flyio
+  path: volumes/volume-manage.html.markerb
+  title: Manage volumes
+  summary: Create, resize, and delete volumes
+  tags:
+  - volumes
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: access-a-volume
+    title: Access a volume
+  - anchor: create-a-volume
+    title: Create a volume
+  - anchor: extend-a-volume
+    title: Extend a volume
+  - anchor: create-a-copy-of-a-volume-fork-a-volume
+    title: Create a copy of a volume (Fork a volume)
+  - anchor: add-a-volume-to-an-unmanaged-machine
+    title: Add a volume to an unmanaged Machine
+  - anchor: clone-a-machine-with-a-volume
+    title: Clone a Machine with a volume
+  - anchor: destroy-a-volume
+    title: Destroy a volume
+  - anchor: restore-a-deleted-volume
+    title: Restore a deleted volume
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/managing.html.markerb
+  source: flyio
+  path: postgres/managing.html.markerb
+  title: Managing overview
+  summary: Database management tasks
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/migrations.html.markerb
+  source: flyio
+  path: litefs/migrations.html.markerb
+  title: Migrations
+  summary: Running schema migrations
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: auto-promotion
+    title: Auto-promotion
+  - anchor: write-forwarding
+    title: Write forwarding
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/managing/monitoring.html.md
+  source: flyio
+  path: postgres/managing/monitoring.html.md
+  title: Monitoring
+  summary: Monitor database health and performance
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: app-status
+    title: App Status
+  - anchor: checks
+    title: Checks
+  - anchor: logs
+    title: Logs
+  - anchor: metrics
+    title: Metrics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/mount.html.markerb
+  source: flyio
+  path: litefs/mount.html.markerb
+  title: Mount
+  summary: Mounting LiteFS filesystems
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: usage
+    title: Usage
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/position.html.markerb
+  source: flyio
+  path: litefs/position.html.markerb
+  title: Position
+  summary: Replication position tracking
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/index.html.md
+  source: flyio
+  path: postgres/index.html.md
+  title: Postgres index
+  summary: Main Postgres documentation
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/primary.html.markerb
+  source: flyio
+  path: litefs/primary.html.markerb
+  title: Primary election
+  summary: How primary node is selected
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/proxy.html.markerb
+  source: flyio
+  path: litefs/proxy.html.markerb
+  title: Proxy
+  summary: HTTP proxy for read/write routing
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: how-it-works
+    title: How it works
+  - anchor: configuring-the-proxy
+    title: Configuring the proxy
+  - anchor: websockets
+    title: Websockets
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/releases.html.markerb
+  source: flyio
+  path: litefs/releases.html.markerb
+  title: Releases
+  summary: LiteFS version history
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/run.html.markerb
+  source: flyio
+  path: litefs/run.html.markerb
+  title: Run
+  summary: Running LiteFS processes
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: usage
+    title: Usage
+  - anchor: examples
+    title: Examples
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/managing/scaling.html.md
+  source: flyio
+  path: postgres/managing/scaling.html.md
+  title: Scale Postgres
+  summary: Vertical and horizontal scaling
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: ha-clusters
+    title: HA clusters
+  - anchor: postgres-resource-parameters
+    title: Postgres resource parameters
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:litefs/speedrun.html.markerb
+  source: flyio
+  path: litefs/speedrun.html.markerb
+  title: Speedrun
+  summary: Quick LiteFS setup
+  tags:
+  - litefs-distributed-sqlite
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: let-s-do-this
+    title: Let's do this!
+  - anchor: next-steps
+    title: Next steps
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:supabase/
+  source: flyio
+  path: supabase/
+  title: Supabase
+  summary: Supabase integration on Fly.io
+  tags:
+  - database-integrations
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: text
+  size: standard
+  grep_hint: null
+  section: databases
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:tigris/
+  source: flyio
+  path: tigris/
+  title: Tigris
+  summary: Object storage with Tigris
+  tags:
+  - database-integrations
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: text
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: use-tigris-with-your-framework
+    title: Use Tigris with your framework
+  - anchor: create-and-manage-a-tigris-storage-bucket
+    title: Create and manage a Tigris storage bucket
+  - anchor: connect-to-your-bucket
+    title: Connect to your bucket
+  - anchor: migrate-from-another-s3-compatible-provider-with-zero-downtime
+    title: Migrate from another S3-compatible provider with zero downtime
+  - anchor: pricing-and-billing
+    title: Pricing and Billing
+  - anchor: aws-api-compatibility
+    title: AWS API compatibility
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:volumes/snapshots.html.markerb
+  source: flyio
+  path: volumes/snapshots.html.markerb
+  title: Volume snapshots
+  summary: Backup and restore volumes
+  tags:
+  - volumes
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: set-or-change-the-snapshot-retention-period
+    title: Set or change the snapshot retention period
+  - anchor: create-a-volume-snapshot
+    title: Create a volume snapshot
+  - anchor: restore-a-volume-from-a-snapshot
+    title: Restore a volume from a snapshot
+  - anchor: create-a-machine-with-a-volume-from-a-snapshot
+    title: Create a Machine with a volume from a snapshot
+  - anchor: list-snapshots-and-their-stored-sizes
+    title: List snapshots and their stored sizes
+  - anchor: disable-automatic-daily-snapshots
+    title: Disable automatic daily snapshots
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:volumes/volume-states.html.markerb
+  source: flyio
+  path: volumes/volume-states.html.markerb
+  title: Volume states
+  summary: Volume lifecycle and states
+  tags:
+  - volumes
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: transitions-and-states-during-actions-on-volumes
+    title: Transitions and states during actions on volumes
+  - anchor: volumes-are-soft-deleted-before-being-destroyed
+    title: Volumes are soft deleted before being destroyed
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:volumes/index.html.markerb
+  source: flyio
+  path: volumes/index.html.markerb
+  title: Volumes index
+  summary: Main volumes documentation
+  tags:
+  - volumes
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: volume-references
+    title: Volume references
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:volumes/overview.html.markerb
+  source: flyio
+  path: volumes/overview.html.markerb
+  title: Volumes overview
+  summary: What are Fly Volumes and when to use them
+  tags:
+  - volumes
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: volume-considerations
+    title: Volume considerations
+  - anchor: volume-attachment
+    title: Volume attachment
+  - anchor: volume-redundancy
+    title: Volume redundancy
+  - anchor: volume-placement
+    title: Volume placement
+  - anchor: volume-encryption
+    title: Volume encryption
+  - anchor: volume-size
+    title: Volume size
+  - anchor: volume-limits
+    title: Volume limits
+  - anchor: volume-forks
+    title: Volume forks
+  - anchor: volume-snapshots
+    title: Volume snapshots
+  - anchor: when-volumes-are-not-available
+    title: When volumes are not available
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:postgres/getting-started/what-you-should-know.html.md
+  source: flyio
+  path: postgres/getting-started/what-you-should-know.html.md
+  title: What you should know
+  summary: Important concepts before deploying Postgres
+  tags:
+  - managed-postgres
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: databases
+  headings:
+  - anchor: here-s-what-fly-io-manages
+    title: Here's what Fly.io manages
+  - anchor: here-s-what-you-manage
+    title: Here's what you manage
+  - anchor: recommended-managed-postgres-option
+    title: Recommended Managed Postgres option
+  - anchor: other-managed-postgres-providers
+    title: Other Managed Postgres providers
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/custom-private-networks.html.markerb
+  source: flyio
+  path: networking/custom-private-networks.html.markerb
+  title: Custom private networks
+  summary: Tenant isolation with separate 6PNs per customer
+  tags:
+  - private-networking
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: when-to-use-custom-private-networks
+    title: When to use custom private networks
+  - anchor: network-names-and-ids
+    title: Network names and IDs
+  - anchor: create-a-custom-private-network
+    title: Create a custom private network
+  - anchor: connect-apps-in-different-6pns
+    title: Connect apps in different 6PNs
+  - anchor: connect-directly-to-machines-on-custom-6pns
+    title: Connect directly to Machines on custom 6PNs
+  - anchor: check-which-network-an-app-or-machine-is-on
+    title: Check which network an app or Machine is on
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/dynamic-request-routing.html.md
+  source: flyio
+  path: networking/dynamic-request-routing.html.md
+  title: Dynamic request routing
+  summary: Advanced routing strategies
+  tags:
+  - public-networking-load-balancing
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: how-fly-replay-works
+    title: How fly-replay Works
+  - anchor: replay-header-format
+    title: Replay Header Format
+  - anchor: replay-json-format
+    title: Replay JSON Format
+  - anchor: replay-caching
+    title: Replay Caching
+  - anchor: implementation-details
+    title: Implementation Details
+  - anchor: alternative-routing-headers
+    title: Alternative Routing Headers
+  - anchor: common-use-cases
+    title: Common Use Cases
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/egress-ips.html.md
+  source: flyio
+  path: networking/egress-ips.html.md
+  title: Egress IPs
+  summary: Static egress IPs for allowlisting with external services
+  tags:
+  - public-networking-load-balancing
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: why-egress-ips-matter
+    title: Why Egress IPs Matter
+  - anchor: static-egress-ips-app-scoped
+    title: Static Egress IPs (App-Scoped)
+  - anchor: static-egress-ips-machine-scoped
+    title: Static Egress IPs (Machine-Scoped)
+  - anchor: best-practices
+    title: Best Practices
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/flycast.html.markerb
+  source: flyio
+  path: networking/flycast.html.markerb
+  title: Flycast
+  summary: Private Fly Proxy services with autostop/autostart and load balancing
+  tags:
+  - private-networking
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: flycast-quickstart
+    title: Flycast quickstart
+  - anchor: flycast-requirements
+    title: Flycast requirements
+  - anchor: allocate-a-flycast-address
+    title: Allocate a Flycast address
+  - anchor: flycast-and-fly-io-dns
+    title: Flycast and Fly.io DNS
+  - anchor: more-flycast
+    title: More Flycast
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/index.html.markerb
+  source: flyio
+  path: networking/index.html.markerb
+  title: Networking index
+  summary: Main networking documentation
+  tags:
+  - overview
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/private-networking.html.md
+  source: flyio
+  path: networking/private-networking.html.md
+  title: Private networking
+  summary: Internal app-to-app communication using 6PN
+  tags:
+  - private-networking
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: fly-io-internal-dns
+    title: Fly.io `.internal` DNS
+  - anchor: listening-for-connections-on-6pn-addresses
+    title: Listening for connections on 6PN addresses
+  - anchor: connect-a-fly-machine-to-the-fly-io-dns
+    title: Connect a Fly Machine to the Fly.io DNS
+  - anchor: 6pn-addresses-in-detail
+    title: 6PN addresses in detail
+  - anchor: custom-private-networks
+    title: Custom private networks
+  - anchor: private-network-vpn
+    title: Private Network VPN
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/request-headers.html.md
+  source: flyio
+  path: networking/request-headers.html.md
+  title: Request headers
+  summary: HTTP headers added by Fly Proxy (Fly-Request-Id, Fly-Client-IP, etc.)
+  tags:
+  - public-networking-load-balancing
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: request-headers
+    title: Request Headers
+  - anchor: request-and-response-headers
+    title: Request and Response Headers
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/udp-and-tcp.html.md
+  source: flyio
+  path: networking/udp-and-tcp.html.md
+  title: Run UDP services
+  summary: UDP and TCP service configuration
+  tags:
+  - advanced
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: you-need-a-dedicated-ipv4-address
+    title: You need a dedicated IPv4 address
+  - anchor: your-app-needs-to-bind-to-the-fly-global-services-address
+    title: Your app needs to bind to the `fly-global-services` address
+  - anchor: your-app-needs-to-listen-on-the-same-port-externally-and-internally
+    title: Your app needs to listen on the same port externally and internally
+  - anchor: you-might-need-to-be-mindful-of-mtus
+    title: You might need to be mindful of MTUs
+  - anchor: example-udp-app
+    title: Example UDP app
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/services.html.markerb
+  source: flyio
+  path: networking/services.html.markerb
+  title: Services
+  summary: Configure app services and ports
+  tags:
+  - public-networking-load-balancing
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: anycast-ip-addresses
+    title: Anycast IP addresses
+  - anchor: connection-handlers
+    title: Connection handlers
+  - anchor: http-to-https-redirects
+    title: HTTP to HTTPS redirects
+  - anchor: outbound-ip-addresses
+    title: Outbound IP addresses
+  - anchor: default-deny-security-policy
+    title: Default-Deny security policy
+  - anchor: related-reading
+    title: Related reading
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/tls.html.md
+  source: flyio
+  path: networking/tls.html.md
+  title: TLS certificates
+  summary: HTTPS and certificate management
+  tags:
+  - domains-certificates
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: supported-cipher-suites
+    title: Supported Cipher Suites
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:networking/understanding-cloudflare.html.md
+  source: flyio
+  path: networking/understanding-cloudflare.html.md
+  title: Understanding Cloudflare
+  summary: Using Cloudflare DNS and CDN proxy with Fly.io
+  tags:
+  - advanced
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: networking
+  headings:
+  - anchor: dns-only-setup
+    title: DNS-only setup
+  - anchor: cdn-proxy-setup-orange-cloud
+    title: CDN proxy setup ("orange cloud")
+  - anchor: common-issues-to-watch-for
+    title: Common issues to watch for
+  - anchor: tools-for-debugging
+    title: Tools for debugging
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_apps_create.md
+  source: flyio
+  path: flyctl/cmd/fly_apps_create.md
+  title: fly apps create
+  summary: Create a new app
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - apps
+  - create
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_apps_destroy.md
+  source: flyio
+  path: flyctl/cmd/fly_apps_destroy.md
+  title: fly apps destroy
+  summary: Delete an app
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - apps
+  - destroy
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_apps_list.md
+  source: flyio
+  path: flyctl/cmd/fly_apps_list.md
+  title: fly apps list
+  summary: List all apps
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - apps
+  - list
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_checks_list.md
+  source: flyio
+  path: flyctl/cmd/fly_checks_list.md
+  title: fly checks list
+  summary: View health checks
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - checks
+  - list
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_deploy.md
+  source: flyio
+  path: flyctl/cmd/fly_deploy.md
+  title: fly deploy
+  summary: Deploy your application
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - deploy
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_doctor.md
+  source: flyio
+  path: flyctl/cmd/fly_doctor.md
+  title: fly doctor
+  summary: Diagnose common issues
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - doctor
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: available-commands
+    title: Available Commands
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_launch.md
+  source: flyio
+  path: flyctl/cmd/fly_launch.md
+  title: fly launch
+  summary: Create and launch a new app
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - launch
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_logs.md
+  source: flyio
+  path: flyctl/cmd/fly_logs.md
+  title: fly logs
+  summary: View application logs
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - logs
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_machine_destroy.md
+  source: flyio
+  path: flyctl/cmd/fly_machine_destroy.md
+  title: fly machine destroy
+  summary: Remove a Machine
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - machine
+  - destroy
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_machine_list.md
+  source: flyio
+  path: flyctl/cmd/fly_machine_list.md
+  title: fly machine list
+  summary: List Machines
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - machine
+  - list
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_machine_run.md
+  source: flyio
+  path: flyctl/cmd/fly_machine_run.md
+  title: fly machine run
+  summary: Create and start a Machine
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - machine
+  - run
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_machine_stop.md
+  source: flyio
+  path: flyctl/cmd/fly_machine_stop.md
+  title: fly machine stop
+  summary: Stop a Machine
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - machine
+  - stop
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_mpg.md
+  source: flyio
+  path: flyctl/cmd/fly_mpg.md
+  title: fly mpg
+  summary: Manage Managed Postgres clusters
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - mpg
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: available-commands
+    title: Available Commands
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_mpg_detach.md
+  source: flyio
+  path: flyctl/cmd/fly_mpg_detach.md
+  title: fly mpg detach
+  summary: Detach managed Postgres cluster from an app
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - mpg
+  - detach
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_orgs_cross-network-replays.md
+  source: flyio
+  path: flyctl/cmd/fly_orgs_cross-network-replays.md
+  title: fly orgs cross-network-replays
+  summary: Manage cross-network replay settings for an organization
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - orgs
+  - cross-network-replays
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: available-commands
+    title: Available Commands
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_postgres_attach.md
+  source: flyio
+  path: flyctl/cmd/fly_postgres_attach.md
+  title: fly postgres attach
+  summary: Connect app to Postgres
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - postgres
+  - attach
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_postgres_connect.md
+  source: flyio
+  path: flyctl/cmd/fly_postgres_connect.md
+  title: fly postgres connect
+  summary: Open psql console
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - postgres
+  - connect
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_postgres_create.md
+  source: flyio
+  path: flyctl/cmd/fly_postgres_create.md
+  title: fly postgres create
+  summary: Create Postgres cluster
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - postgres
+  - create
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_postgres_db.md
+  source: flyio
+  path: flyctl/cmd/fly_postgres_db.md
+  title: fly postgres db
+  summary: Manage databases
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - postgres
+  - db
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: available-commands
+    title: Available Commands
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_scale_count.md
+  source: flyio
+  path: flyctl/cmd/fly_scale_count.md
+  title: fly scale count
+  summary: Scale number of instances
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - scale
+  - count
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_scale_memory.md
+  source: flyio
+  path: flyctl/cmd/fly_scale_memory.md
+  title: fly scale memory
+  summary: Set memory allocation
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - scale
+  - memory
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_scale_vm.md
+  source: flyio
+  path: flyctl/cmd/fly_scale_vm.md
+  title: fly scale vm
+  summary: Scale VM size (CPU/RAM)
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - scale
+  - vm
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_secrets_list.md
+  source: flyio
+  path: flyctl/cmd/fly_secrets_list.md
+  title: fly secrets list
+  summary: List app secrets
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - secrets
+  - list
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_secrets_set.md
+  source: flyio
+  path: flyctl/cmd/fly_secrets_set.md
+  title: fly secrets set
+  summary: Set secrets
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - secrets
+  - set
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_secrets_unset.md
+  source: flyio
+  path: flyctl/cmd/fly_secrets_unset.md
+  title: fly secrets unset
+  summary: Remove secrets
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - secrets
+  - unset
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_ssh_console.md
+  source: flyio
+  path: flyctl/cmd/fly_ssh_console.md
+  title: fly ssh console
+  summary: Open SSH console
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - ssh
+  - console
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_ssh_sftp.md
+  source: flyio
+  path: flyctl/cmd/fly_ssh_sftp.md
+  title: fly ssh sftp
+  summary: SFTP file transfer
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - ssh
+  - sftp
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: available-commands
+    title: Available Commands
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_status.md
+  source: flyio
+  path: flyctl/cmd/fly_status.md
+  title: fly status
+  summary: Show app status
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - status
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_volumes_create.md
+  source: flyio
+  path: flyctl/cmd/fly_volumes_create.md
+  title: fly volumes create
+  summary: Create a volume
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - volumes
+  - create
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_volumes_list.md
+  source: flyio
+  path: flyctl/cmd/fly_volumes_list.md
+  title: fly volumes list
+  summary: List volumes
+  tags:
+  - quick-reference-most-common-commands
+  keywords:
+  - volumes
+  - list
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: flyctl
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:django/index.html.md
+  source: flyio
+  path: django/index.html.md
+  title: Django index
+  summary: Main Django documentation
+  tags:
+  - django-python
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: getting-started-getting-started
+    title: '[Getting Started](./getting-started)'
+  - anchor: existing-django-apps-getting-started-existing
+    title: '[Existing Django Apps](./getting-started/existing/)'
+  - anchor: advanced-guides-advanced-guides
+    title: '[Advanced Guides](./advanced-guides)'
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:rails/getting-started/dockerfiles.html.markerb
+  source: flyio
+  path: rails/getting-started/dockerfiles.html.markerb
+  title: Dockerfiles
+  summary: Rails Dockerfile setup
+  tags:
+  - ruby-on-rails
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: updates
+    title: Updates
+  - anchor: custom-packages
+    title: Custom Packages
+  - anchor: using-sqlite3
+    title: Using Sqlite3
+  - anchor: out-of-memory
+    title: Out of Memory
+  - anchor: scaling
+    title: Scaling
+  - anchor: shelling-in
+    title: Shelling in
+  - anchor: build-speeds
+    title: Build speeds
+  - anchor: runtime-performance
+    title: Runtime performance
+  - anchor: testing-locally
+    title: Testing Locally
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:elixir/index.html.markerb
+  source: flyio
+  path: elixir/index.html.markerb
+  title: Elixir index
+  summary: Main Elixir documentation
+  tags:
+  - elixir-phoenix
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: getting-started-getting-started
+    title: '[Getting Started](./getting-started)'
+  - anchor: the-basics-the-basics
+    title: '[The Basics](./the-basics)'
+  - anchor: advanced-guides-advanced-guides
+    title: '[Advanced Guides](./advanced-guides)'
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:elixir/getting-started/existing.html.markerb
+  source: flyio
+  path: elixir/getting-started/existing.html.markerb
+  title: Existing apps
+  summary: Deploy existing Phoenix apps
+  tags:
+  - elixir-phoenix
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: troubleshooting-your-initial-deployment
+    title: Troubleshooting your initial deployment
+  - anchor: deploy-your-application-after-changes
+    title: Deploy your application after changes
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:django/getting-started/existing.html.md
+  source: flyio
+  path: django/getting-started/existing.html.md
+  title: Existing Django apps
+  summary: Deploy existing Django projects
+  tags:
+  - django-python
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: configure-django
+    title: Configure Django
+  - anchor: flyctl
+    title: flyctl
+  - anchor: provision-django-and-postgres-servers
+    title: Provision Django and Postgres Servers
+  - anchor: dockerfile-and-fly-toml
+    title: Dockerfile and fly.toml
+  - anchor: allowed-hosts-csrf-trusted-origins
+    title: ALLOWED_HOSTS & CSRF\_TRUSTED_ORIGINS
+  - anchor: deploy-your-application
+    title: Deploy Your Application
+  - anchor: troubleshooting-your-initial-deployment
+    title: Troubleshooting your initial deployment
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:rails/getting-started/existing.html.markerb
+  source: flyio
+  path: rails/getting-started/existing.html.markerb
+  title: Existing Rails apps
+  summary: Deploy existing Rails apps
+  tags:
+  - ruby-on-rails
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: provision-rails-and-postgres-servers
+    title: Provision Rails and Postgres Servers
+  - anchor: deploy-your-application
+    title: Deploy your application
+  - anchor: troubleshooting-your-initial-deployment
+    title: Troubleshooting your initial deployment
+  - anchor: common-initial-deployment-issues
+    title: Common initial deployment issues
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:python/frameworks/fastapi.html.markerb
+  source: flyio
+  path: python/frameworks/fastapi.html.markerb
+  title: FastAPI
+  summary: Deploy FastAPI applications
+  tags:
+  - python
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: speedrun
+    title: _Speedrun_
+  - anchor: deploy-a-fastapi-app-from-scratch
+    title: _Deploy a FastAPI app from scratch_
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:python/frameworks/flask.html.markerb
+  source: flyio
+  path: python/frameworks/flask.html.markerb
+  title: Flask
+  summary: Deploy Flask applications
+  tags:
+  - python
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: speedrun
+    title: _Speedrun_
+  - anchor: deploy-a-flask-app-from-scratch
+    title: _Deploy a Flask app from scratch_
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:rails/getting-started/index.html.markerb
+  source: flyio
+  path: rails/getting-started/index.html.markerb
+  title: Getting started
+  summary: Rails quickstart
+  tags:
+  - ruby-on-rails
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: rails-splash-screen
+    title: Rails Splash Screen
+  - anchor: arrived-at-destination
+    title: Arrived at Destination
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:django/getting-started/index.html.md
+  source: flyio
+  path: django/getting-started/index.html.md
+  title: Getting started
+  summary: Django quickstart
+  tags:
+  - django-python
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: initial-local-setup
+    title: Initial Local Setup
+  - anchor: django-deployment-checklist
+    title: Django Deployment Checklist
+  - anchor: flyctl
+    title: flyctl
+  - anchor: configure-and-deploy-your-fly-app
+    title: Configure and Deploy your Fly App
+  - anchor: recap
+    title: Recap
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:elixir/getting-started/index.html.markerb
+  source: flyio
+  path: elixir/getting-started/index.html.markerb
+  title: Getting started
+  summary: Elixir/Phoenix quickstart
+  tags:
+  - elixir-phoenix
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: preparation
+    title: _Preparation_
+  - anchor: generate-the-app-and-deploy-with-postgres
+    title: _Generate the app and deploy with Postgres_
+  - anchor: what-s-next
+    title: What's Next?
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:languages-and-frameworks/golang.html.markerb
+  source: flyio
+  path: languages-and-frameworks/golang.html.markerb
+  title: Golang getting started
+  summary: Deploy Go applications
+  tags:
+  - overview
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: the-example-application
+    title: _The example application_
+  - anchor: building-the-application
+    title: _Building the application_
+  - anchor: install-flyctl-and-log-in
+    title: _Install flyctl and log in_
+  - anchor: launch-the-app-on-fly-io
+    title: _Launch the app on Fly.io_
+  - anchor: inside-fly-toml
+    title: _Inside `fly.toml`_
+  - anchor: inside-dockerfile
+    title: _Inside `Dockerfile`_
+  - anchor: deploying-to-fly-io
+    title: _Deploying to Fly.io_
+  - anchor: viewing-the-deployed-app
+    title: _Viewing the deployed app_
+  - anchor: connecting-to-the-app
+    title: _Connecting to the app_
+  - anchor: add-tigris-global-storage-optional
+    title: _Add Tigris Global Storage (optional)_
+  - anchor: bonus-points
+    title: _Bonus points_
+  - anchor: arrived-at-destination
+    title: _Arrived at destination_
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:js/index.html.markerb
+  source: flyio
+  path: js/index.html.markerb
+  title: JS index
+  summary: Main JavaScript documentation
+  tags:
+  - javascript-node-js
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: getting-started
+    title: Getting Started
+  - anchor: the-basics
+    title: The Basics
+  - anchor: advanced-guides-advanced-guides
+    title: '[Advanced Guides](./advanced-guides)'
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:laravel/index.html.markerb
+  source: flyio
+  path: laravel/index.html.markerb
+  title: Laravel index
+  summary: Main Laravel documentation
+  tags:
+  - laravel-php
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: prepare-a-laravel-app
+    title: Prepare a Laravel app
+  - anchor: deploy-to-fly-io
+    title: Deploy to Fly.io
+  - anchor: customizing-your-app
+    title: Customizing your app
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:js/
+  source: flyio
+  path: js/
+  title: Node.js guides
+  summary: Framework-specific guides (Express, Next.js, etc.)
+  tags:
+  - javascript-node-js
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: text
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: getting-started
+    title: Getting Started
+  - anchor: the-basics
+    title: The Basics
+  - anchor: advanced-guides-advanced-guides
+    title: '[Advanced Guides](./advanced-guides)'
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:elixir/the-basics/clustering.html.markerb
+  source: flyio
+  path: elixir/the-basics/clustering.html.markerb
+  title: Phoenix Channels
+  summary: Distributed Phoenix with clustering
+  tags:
+  - elixir-phoenix
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: naming-the-node-s
+    title: Naming the Node(s)
+  - anchor: adding-dns-cluster
+    title: Adding `dns_cluster`
+  - anchor: running-multiple-vms
+    title: Running multiple VMs
+  - anchor: the-cookie-situation
+    title: The cookie situation
+  - anchor: making-the-cookie-changes
+    title: Making the cookie changes
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:python/index.html.markerb
+  source: flyio
+  path: python/index.html.markerb
+  title: Python index
+  summary: Main Python documentation
+  tags:
+  - python
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: getting-started
+    title: Getting Started
+  - anchor: the-basics
+    title: The Basics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:rails/index.html.markerb
+  source: flyio
+  path: rails/index.html.markerb
+  title: Rails index
+  summary: Main Rails documentation
+  tags:
+  - ruby-on-rails
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: getting-started-getting-started
+    title: '[Getting Started](./getting-started)'
+  - anchor: the-basics-the-basics
+    title: '[The Basics](./the-basics)'
+  - anchor: advanced-guides-advanced-guides
+    title: '[Advanced Guides](./advanced-guides)'
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:rust/index.html.markerb
+  source: flyio
+  path: rust/index.html.markerb
+  title: Rust index
+  summary: Main Rust documentation
+  tags:
+  - rust
+  keywords: []
+  concepts: []
+  category: guide
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: languages
+  headings:
+  - anchor: getting-started
+    title: Getting Started
+  - anchor: the-basics
+    title: The Basics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:about/index.html.markerb
+  source: flyio
+  path: about/index.html.markerb
+  title: About Fly.io
+  summary: Company information and philosophy
+  tags:
+  - about-company
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:reference/configuration.html.markerb
+  source: flyio
+  path: reference/configuration.html.markerb
+  title: App config (fly.toml)
+  summary: Complete fly.toml reference
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: large
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: app-configuration-files
+    title: App configuration files
+  - anchor: the-app-name
+    title: The `app` name
+  - anchor: primary-region
+    title: Primary region
+  - anchor: runtime-options
+    title: Runtime options
+  - anchor: console-command
+    title: Console command
+  - anchor: swap-size-mb-option
+    title: '`swap_size_mb` option'
+  - anchor: the-build-section
+    title: The `build` section
+  - anchor: the-deploy-section
+    title: The `deploy` section
+  - anchor: the-env-variables-section
+    title: The `env` variables section
+  - anchor: the-http-service-section
+    title: The `http_service` section
+  - anchor: the-services-sections
+    title: The `services` sections
+  - anchor: the-mounts-section
+    title: The `mounts` section
+  - anchor: the-vm-section
+    title: The `vm` section
+  - anchor: the-restart-section
+    title: The `restart` section
+  - anchor: the-checks-section
+    title: The `checks` section
+  - anchor: the-processes-section
+    title: The `processes` section
+  - anchor: the-metrics-section
+    title: The `metrics` section
+  - anchor: the-statics-sections
+    title: The `statics` sections
+  - anchor: the-files-section
+    title: The `files` section
+  - anchor: the-experimental-section
+    title: The `experimental` section
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:blueprints/index.html.markerb
+  source: flyio
+  path: blueprints/index.html.markerb
+  title: Blueprints overview
+  summary: Pre-built app templates
+  tags:
+  - blueprints-templates
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: architecture-patterns
+    title: Architecture Patterns
+  - anchor: deployment-developer-workflow
+    title: Deployment & Developer Workflow
+  - anchor: networking-connectivity
+    title: Networking & Connectivity
+  - anchor: scaling-performance-observability
+    title: Scaling, Performance & Observability
+  - anchor: background-jobs-automation
+    title: Background Jobs & Automation
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:reference/builders.html.md
+  source: flyio
+  path: reference/builders.html.md
+  title: Builders overview
+  summary: Build strategies (Dockerfile, buildpacks)
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: dockerfile
+    title: Dockerfile
+  - anchor: buildpacks
+    title: Buildpacks
+  - anchor: image
+    title: Image
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:kubernetes/services.html.markerb
+  source: flyio
+  path: kubernetes/services.html.markerb
+  title: Configure FKS Services
+  summary: ClusterIP and LoadBalancer services
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: exposing-services-publicly
+    title: Exposing Services publicly
+  - anchor: fly-io-connection-handlers
+    title: Fly.io connection Handlers
+  - anchor: concurrency-limits
+    title: Concurrency limits
+  - anchor: not-supported
+    title: Not supported
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:kubernetes/connect-clusters.html.markerb
+  source: flyio
+  path: kubernetes/connect-clusters.html.markerb
+  title: Connect to FKS cluster
+  summary: Connect via private network
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:about/cost-management.html.md
+  source: flyio
+  path: about/cost-management.html.md
+  title: Cost management
+  summary: Predict your Fly.io bill and avoid surprises
+  tags:
+  - about-company
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: predicting-your-fly-io-bill-and-avoiding-surprises
+    title: Predicting your Fly.io bill and avoiding surprises
+  - anchor: a-few-examples
+    title: A few examples
+  - anchor: metrics-based-autoscaling-can-affect-costs
+    title: Metrics-based autoscaling can affect costs
+  - anchor: other-stuff-to-watch-for
+    title: Other Stuff to Watch For
+  - anchor: understanding-free-usage-and-overages
+    title: Understanding Free Usage and Overages
+  - anchor: related-reading
+    title: Related Reading
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:kubernetes/clusters.html.markerb
+  source: flyio
+  path: kubernetes/clusters.html.markerb
+  title: Create FKS cluster
+  summary: Create clusters with flyctl
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:blueprints/custom-deploy-workflows.html.md
+  source: flyio
+  path: blueprints/custom-deploy-workflows.html.md
+  title: Custom deploy workflows
+  summary: Customize deployment pipelines
+  tags:
+  - blueprints-templates
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: why-you-might-want-this
+    title: Why you might want this
+  - anchor: staggered-and-selective-deploys
+    title: Staggered and selective deploys
+  - anchor: handling-partial-rollout-failures
+    title: Handling partial rollout failures
+  - anchor: ci-integration
+    title: CI integration
+  - anchor: dynamic-config-updates
+    title: Dynamic config updates
+  - anchor: things-to-watch-out-for
+    title: Things to watch out for
+  - anchor: related-reading
+    title: Related reading
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:blueprints/deploy-openclaw.html.md
+  source: flyio
+  path: blueprints/deploy-openclaw.html.md
+  title: Deploy OpenClaw on Fly.io
+  summary: Deploy the OpenClaw open-source app using a prebuilt deploy package and script
+  tags:
+  - blueprints-templates
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: what-is-openclaw
+    title: What is OpenClaw?
+  - anchor: how-it-works
+    title: How it works
+  - anchor: post-deploy-setup
+    title: Post-deploy setup
+  - anchor: configuration
+    title: Configuration
+  - anchor: useful-commands
+    title: Useful commands
+  - anchor: troubleshooting
+    title: Troubleshooting
+  - anchor: supported-llm-providers
+    title: Supported LLM providers
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:kubernetes/fks-features.html.markerb
+  source: flyio
+  path: kubernetes/fks-features.html.markerb
+  title: FKS features
+  summary: FKS benefits and supported features
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: fly-io-infrastructure
+    title: Fly.io infrastructure
+  - anchor: cluster-scalability
+    title: Cluster scalability
+  - anchor: security
+    title: Security
+  - anchor: simple-and-secure-client-authentication
+    title: Simple and secure client authentication
+  - anchor: not-supported
+    title: Not supported
+  - anchor: pricing
+    title: Pricing
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:kubernetes/fks-quickstart.html.markerb
+  source: flyio
+  path: kubernetes/fks-quickstart.html.markerb
+  title: FKS quickstart
+  summary: Get up and running with Fly Kubernetes
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: what-we-don-t-support
+    title: What we don't support
+  - anchor: other-caveats
+    title: Other caveats
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:kubernetes/index.html.markerb
+  source: flyio
+  path: kubernetes/index.html.markerb
+  title: Fly Kubernetes overview
+  summary: Managed Kubernetes on Fly.io (closed beta)
+  tags:
+  - platform-features
+  keywords:
+  - kubernetes
+  - overview
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:reference/architecture.html.md
+  source: flyio
+  path: reference/architecture.html.md
+  title: Fly.io architecture
+  summary: Platform architecture overview
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: compute
+    title: Compute
+  - anchor: fly-io-networking
+    title: Fly.io networking
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:about/free-trial.html.md
+  source: flyio
+  path: about/free-trial.html.md
+  title: Free trial
+  summary: Free trial limits (2 VM hours or 7 days, 10 machines max)
+  tags:
+  - about-company
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: free-trial-overview
+    title: Free Trial overview
+  - anchor: checking-usage
+    title: Checking usage
+  - anchor: what-happens-when-the-free-trial-ends
+    title: What happens when the free trial ends?
+  - anchor: related-reading
+    title: Related Reading
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:gpus/getting-started-gpus.html.md
+  source: flyio
+  path: gpus/getting-started-gpus.html.md
+  title: Getting started with GPUs
+  summary: Deploy GPU workloads
+  tags:
+  - gpus
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: how-do-i-run-a-gpu-machine-on-fly-io
+    title: How do I run a GPU Machine on Fly.io?
+  - anchor: placing-your-machines-on-gpu-hosts
+    title: Placing your Machines on GPU hosts
+  - anchor: choosing-a-docker-base-image
+    title: Choosing a Docker base image
+  - anchor: installing-nvidia-libraries
+    title: Installing NVIDIA libraries
+  - anchor: where-to-store-data
+    title: Where to store data
+  - anchor: using-swap
+    title: Using swap
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:gpus/gpu-quickstart.html.md
+  source: flyio
+  path: gpus/gpu-quickstart.html.md
+  title: GPU quickstart
+  summary: Quick GPU setup guide
+  tags:
+  - gpus
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: volumes-and-gpu-machines
+    title: Volumes and GPU Machines
+  - anchor: examples-using-fly-gpus
+    title: Examples using Fly GPUs
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:gpus/index.html.markerb
+  source: flyio
+  path: gpus/index.html.markerb
+  title: GPUs index
+  summary: GPU machines overview
+  tags:
+  - gpus
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: what-can-i-use-fly-gpus-for
+    title: What can I use Fly GPUs for?
+  - anchor: regions-with-gpus
+    title: Regions with GPUs
+  - anchor: examples
+    title: Examples
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:kubernetes/using-gpus.html.markerb
+  source: flyio
+  path: kubernetes/using-gpus.html.markerb
+  title: GPUs with FKS
+  summary: Use Fly GPU Machines in FKS
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:launch/index.html.markerb
+  source: flyio
+  path: launch/index.html.markerb
+  title: Launch overview
+  summary: Fly Launch orchestration system
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:monitoring/logs-api-options.html.md
+  source: flyio
+  path: monitoring/logs-api-options.html.md
+  title: Logs API options
+  summary: Programmatic access to logs via HTTP API, NATS proxy, or log shipping
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: options-for-fetching-logs-programmatically
+    title: Options for fetching logs programmatically
+  - anchor: summary-so-what-should-i-use
+    title: 'Summary: So what should I use?'
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:blueprints/long-running-tasks.html.md
+  source: flyio
+  path: blueprints/long-running-tasks.html.md
+  title: Long-running tasks and machine lifecycle
+  summary: How auto_stop_machines works with background tasks and two patterns to prevent work from being
+    killed mid-run
+  tags:
+  - blueprints-templates
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: the-problem
+    title: The problem
+  - anchor: how-autostop-actually-decides
+    title: How autostop actually decides
+  - anchor: pattern-a-disable-autostop-manage-shutdown-in-the-app
+    title: 'Pattern A: disable autostop, manage shutdown in the app'
+  - anchor: pattern-b-split-web-and-worker-into-separate-process-groups
+    title: 'Pattern B: split web and worker into separate process groups'
+  - anchor: graceful-shutdown-what-fly-sends
+    title: 'Graceful shutdown: what Fly sends'
+  - anchor: picking-a-pattern
+    title: Picking a pattern
+  - anchor: common-problems
+    title: Common problems
+  - anchor: where-to-go-next
+    title: Where to go next
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:mcp/index.html.markerb
+  source: flyio
+  path: mcp/index.html.markerb
+  title: MCP index
+  summary: MCP integration overview
+  tags:
+  - model-context-protocol-mcp
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:monitoring/metrics.html.markerb
+  source: flyio
+  path: monitoring/metrics.html.markerb
+  title: Metrics
+  summary: App and machine metrics
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: prometheus-on-fly-io
+    title: Prometheus on Fly.io
+  - anchor: retention-cost-and-limits
+    title: Retention, cost, and limits
+  - anchor: dashboards
+    title: Dashboards
+  - anchor: alerting
+    title: Alerting
+  - anchor: built-in-metrics
+    title: Built-in metrics
+  - anchor: custom-metrics
+    title: Custom Metrics
+  - anchor: authentication
+    title: Authentication
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:monitoring/index.html.markerb
+  source: flyio
+  path: monitoring/index.html.markerb
+  title: Monitoring index
+  summary: Monitoring and observability overview
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: metrics
+    title: Metrics
+  - anchor: error-monitoring-by-sentry
+    title: Error monitoring by Sentry
+  - anchor: logging
+    title: Logging
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:mpg/index.html.markerb
+  source: flyio
+  path: mpg/index.html.markerb
+  title: MPG (Managed Postgres)
+  summary: Managed Postgres platform overview
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: what-is-managed-postgres
+    title: What is Managed Postgres?
+  - anchor: regions
+    title: Regions
+  - anchor: database-storage
+    title: Database Storage
+  - anchor: pricing
+    title: Pricing
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:mpg/client-configuration.html.md
+  source: flyio
+  path: mpg/client-configuration.html.md
+  title: MPG client configuration
+  summary: 'Connect your app to Fly Managed Postgres: connection strings, pooled vs direct URLs, SSL,
+    and language-specific examples'
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: quick-start
+    title: Quick start
+  - anchor: why-client-configuration-matters
+    title: Why client configuration matters
+  - anchor: pgbouncer-mode-and-your-client
+    title: PgBouncer mode and your client
+  - anchor: language-specific-configuration
+    title: Language-specific configuration
+  - anchor: connection-limits
+    title: Connection limits
+  - anchor: troubleshooting
+    title: Troubleshooting
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:mpg/cluster-configuration.html.md
+  source: flyio
+  path: mpg/cluster-configuration.html.md
+  title: MPG cluster configuration
+  summary: Connection pooling, pool mode options, and PgBouncer configuration for Managed Postgres
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: connection-pooling
+    title: Connection Pooling
+  - anchor: changing-your-mpg-plan
+    title: Changing your MPG Plan
+  - anchor: users-and-roles
+    title: Users and Roles
+  - anchor: databases
+    title: Databases
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:about/pricing.html.markerb
+  source: flyio
+  path: about/pricing.html.markerb
+  title: Pricing
+  summary: Compute and resource pricing
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: how-it-works
+    title: How it works
+  - anchor: compute
+    title: Compute
+  - anchor: managed-postgres
+    title: Managed Postgres
+  - anchor: persistent-storage-volumes
+    title: Persistent Storage Volumes
+  - anchor: network-prices
+    title: Network prices
+  - anchor: support
+    title: Support
+  - anchor: fly-kubernetes
+    title: Fly Kubernetes
+  - anchor: extensions
+    title: Extensions
+  - anchor: unsupported-products
+    title: Unsupported Products
+  - anchor: discontinued-plans
+    title: Discontinued Plans
+  - anchor: related-reading
+    title: '**Related reading**'
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:gpus/python-gpu-example.html.markerb
+  source: flyio
+  path: gpus/python-gpu-example.html.markerb
+  title: Python ML quickstart
+  summary: Machine learning on GPUs
+  tags:
+  - gpus
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: deployment-to-fly-io
+    title: Deployment to Fly.io
+  - anchor: using-the-machine
+    title: Using the Machine
+  - anchor: fly-io-specific-things
+    title: Fly.io-specific things
+  - anchor: general-considerations
+    title: General considerations
+  - anchor: implementation-specifics
+    title: Implementation specifics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:reference/index.html.markerb
+  source: flyio
+  path: reference/index.html.markerb
+  title: Reference index
+  summary: Main reference documentation
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: about-fly-io
+    title: About Fly.io
+  - anchor: reference-docs
+    title: Reference docs
+  - anchor: working-with-fly-io
+    title: Working with Fly.io
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:reference/regions.html.md
+  source: flyio
+  path: reference/regions.html.md
+  title: Regions
+  summary: Fly.io regions and locations worldwide
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: fly-io-regions
+    title: Fly.io Regions
+  - anchor: discovering-your-app-s-region
+    title: Discovering your app's region
+  - anchor: related-reading
+    title: Related reading
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:blueprints/review-apps-guide.html.markerb
+  source: flyio
+  path: blueprints/review-apps-guide.html.markerb
+  title: Review apps
+  summary: Automated PR preview deployments
+  tags:
+  - blueprints-templates
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: quick-start
+    title: Quick Start
+  - anchor: setting-up-review-apps-on-fly-io
+    title: Setting up review apps on Fly.io
+  - anchor: customize-your-workflow
+    title: Customize your workflow
+  - anchor: related-reading
+    title: Related Reading
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:blueprints/hermes-agent-on-fly-io.html.md
+  source: flyio
+  path: blueprints/hermes-agent-on-fly-io.html.md
+  title: Run Hermes Agent on Fly.io
+  summary: Deploy Nous Research's Hermes AI agent on a persistent Fly Machine with volume storage and
+    web dashboard access
+  tags:
+  - blueprints-templates
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: create-the-app-and-volume
+    title: Create the app and volume
+  - anchor: write-fly-toml
+    title: Write fly.toml
+  - anchor: deploy
+    title: Deploy
+  - anchor: configure-hermes
+    title: Configure Hermes
+  - anchor: web-dashboard
+    title: Web dashboard
+  - anchor: upgrading
+    title: Upgrading
+  - anchor: vm-sizing
+    title: VM sizing
+  - anchor: useful-commands
+    title: Useful commands
+  - anchor: troubleshooting
+    title: Troubleshooting
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:security/index.html.markerb
+  source: flyio
+  path: security/index.html.markerb
+  title: Security index
+  summary: Security documentation overview
+  tags:
+  - security
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: organization-and-app-security
+    title: Organization and app security
+  - anchor: fly-io-platform-security
+    title: Fly.io platform security
+  - anchor: talk-to-the-security-team
+    title: Talk to the security team
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:monitoring/sentry.html.markerb
+  source: flyio
+  path: monitoring/sentry.html.markerb
+  title: Sentry integration
+  summary: Error tracking with Sentry
+  tags:
+  - platform-reference
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: set-up-sentry-for-your-fly-io-app
+    title: Set up Sentry for your Fly.io app
+  - anchor: instrument-your-application
+    title: Instrument your application
+  - anchor: sentry-plan-details
+    title: Sentry Plan details
+  - anchor: after-the-one-year-plan-ends
+    title: After the one-year plan ends
+  - anchor: updating-sso-and-login-methods
+    title: Updating SSO and login methods
+  - anchor: do-i-need-to-migrate-anything-after-my-plan-expires
+    title: Do I need to migrate anything after my plan expires?
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:supabase/index.html.md
+  source: flyio
+  path: supabase/index.html.md
+  title: Supabase
+  summary: Supabase integration on Fly.io
+  tags:
+  - integrations
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:about/support.html.md
+  source: flyio
+  path: about/support.html.md
+  title: Support
+  summary: Getting help and support options
+  tags:
+  - about-company
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: fly-io-status
+    title: Fly.io status
+  - anchor: community-forum
+    title: Community forum
+  - anchor: billing-and-account-support
+    title: Billing and account support
+  - anchor: paid-support-plans
+    title: Paid support plans
+  - anchor: managed-postgres-support
+    title: Managed Postgres Support
+  - anchor: support-metrics
+    title: Support metrics
+  - anchor: working-with-support
+    title: Working with support
+  - anchor: scope-of-support
+    title: Scope of Support
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:tigris/index.html.md
+  source: flyio
+  path: tigris/index.html.md
+  title: Tigris Object Storage
+  summary: S3-compatible object storage
+  tags:
+  - integrations
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: use-tigris-with-your-framework
+    title: Use Tigris with your framework
+  - anchor: create-and-manage-a-tigris-storage-bucket
+    title: Create and manage a Tigris storage bucket
+  - anchor: connect-to-your-bucket
+    title: Connect to your bucket
+  - anchor: migrate-from-another-s3-compatible-provider-with-zero-downtime
+    title: Migrate from another S3-compatible provider with zero downtime
+  - anchor: pricing-and-billing
+    title: Pricing and Billing
+  - anchor: aws-api-compatibility
+    title: AWS API compatibility
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:security/tls-termination.html.md
+  source: flyio
+  path: security/tls-termination.html.md
+  title: TLS termination
+  summary: TLS/SSL configuration
+  tags:
+  - security
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings: []
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:kubernetes/using-volumes.html.markerb
+  source: flyio
+  path: kubernetes/using-volumes.html.markerb
+  title: Volumes with FKS
+  summary: PersistentVolumes in FKS
+  tags:
+  - platform-features
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: persistent-volumes
+    title: Persistent Volumes
+  - anchor: generic-ephemeral-volumes
+    title: Generic ephemeral volumes
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:blueprints/working-with-docker.html.md
+  source: flyio
+  path: blueprints/working-with-docker.html.md
+  title: Working with Docker
+  summary: Docker-based deployments
+  tags:
+  - blueprints-templates
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  section: reference
+  headings:
+  - anchor: overview
+    title: Overview
+  - anchor: why-you-should-care
+    title: Why you should care
+  - anchor: how-docker-images-work-on-fly-io
+    title: How Docker images work on Fly.io
+  - anchor: prebuilding-for-faster-deploys
+    title: Prebuilding for faster deploys
+  - anchor: managing-image-tags
+    title: Managing image tags
+  - anchor: troubleshooting-common-docker-image-issues
+    title: Troubleshooting common Docker image issues
+  - anchor: tips-for-optimizing-your-dockerfile
+    title: Tips for optimizing your Dockerfile
+  - anchor: related-reading
+    title: Related reading
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:machines/api/machines-resource.html.md
+  source: flyio
+  path: machines/api/machines-resource.html.md
+  title: Machines API
+  summary: REST API for Fly Machines
+  tags: []
+  keywords: []
+  concepts: []
+  category: api
+  content_type: markdown
+  size: large
+  grep_hint: null
+  headings:
+  - anchor: machine-properties
+    title: Machine properties
+  - anchor: list-machines
+    title: List Machines
+  - anchor: create-a-machine
+    title: Create a Machine
+  - anchor: create-a-machine-with-services
+    title: Create a Machine with services
+  - anchor: wait-for-a-machine-to-reach-a-specified-state
+    title: Wait for a Machine to reach a specified state
+  - anchor: get-a-machine
+    title: Get a Machine
+  - anchor: update-a-machine
+    title: Update a Machine
+  - anchor: stop-a-machine
+    title: Stop a Machine
+  - anchor: suspend-a-machine
+    title: Suspend a Machine
+  - anchor: start-a-machine
+    title: Start a Machine
+  - anchor: delete-a-machine-permanently
+    title: Delete a Machine permanently
+  - anchor: create-a-machine-lease
+    title: Create a Machine lease
+  - anchor: get-a-machine-lease
+    title: Get a Machine lease
+  - anchor: release-a-machine-lease
+    title: Release a Machine lease
+  - anchor: route-requests-away-from-or-back-to-a-machine
+    title: Route requests away from or back to a Machine
+  - anchor: get-a-machine-s-metadata
+    title: Get a Machine's metadata
+  - anchor: add-or-update-machine-metadata
+    title: Add or update Machine metadata
+  - anchor: delete-machine-metadata
+    title: Delete Machine metadata
+  - anchor: notes-on-networking
+    title: Notes on networking
+  - anchor: machine-config-object-properties
+    title: Machine `config` object properties
+  - anchor: related-topics
+    title: Related topics
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+- id: flyio:flyctl/cmd/fly_scale.md
+  source: flyio
+  path: flyctl/cmd/fly_scale.md
+  title: Scale an app
+  summary: Scale app resources and regions
+  tags: []
+  keywords: []
+  concepts: []
+  category: reference
+  content_type: markdown
+  size: standard
+  grep_hint: null
+  headings:
+  - anchor: usage
+    title: Usage
+  - anchor: available-commands
+    title: Available Commands
+  - anchor: options
+    title: Options
+  - anchor: global-options
+    title: Global Options
+  - anchor: see-also
+    title: See Also
+  links_to: []
+  links_from: []
+  frontmatter: {}
+  stale: false
+  stale_since: null
+  last_indexed: '2026-07-09T16:41:45Z'
+meta:
+  generated_at: '2026-07-09T16:41:45Z'
+  entry_count: 180
